@@ -1,0 +1,5 @@
+# LogWatch Cron Schedule
+# Run log scan every 15 minutes
+*/15 * * * * root /usr/local/bin/python -m logwatch scan /logs/*.log --config /app/config/default.json --output /reports/scan_$(date +\%Y\%m\%d_\%H\%M).csv --alert >> /var/log/cron.log 2>&1
+
+# Empty line required by cron

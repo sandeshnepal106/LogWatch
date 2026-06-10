@@ -1,0 +1,37 @@
+{
+  "general": {
+    "log_level": "INFO",
+    "date_format": "%Y-%m-%d %H:%M:%S"
+  },
+  "scanner": {
+    "max_line_length": 10000,
+    "encoding": "utf-8"
+  },
+  "patterns": {
+    "custom": []
+  },
+  "filters": {
+    "severity": ["CRITICAL", "ERROR", "WARNING", "INFO"],
+    "date_from": null,
+    "date_to": null,
+    "keyword_include": [],
+    "keyword_exclude": []
+  },
+  "alerts": {
+    "enabled": false,
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 587,
+    "smtp_user": "",
+    "smtp_password": "",
+    "use_tls": true,
+    "sender": "",
+    "recipients": [],
+    "threshold_errors": 10,
+    "threshold_window_minutes": 5,
+    "cooldown_minutes": 30
+  },
+  "export": {
+    "format": "csv",
+    "output_dir": "./reports"
+  }
+}

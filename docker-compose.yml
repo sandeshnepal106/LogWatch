@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  logwatch:
+    build: .
+    container_name: logwatch-monitor
+    restart: unless-stopped
+    volumes:
+      - ./sample_logs:/logs:ro        # Mount your log directory here
+      - ./config:/app/config:ro       # Configuration
+      - ./reports:/reports            # CSV report output
+    env_file: .env
+    environment:
+      - LOGWATCH_LOG_DIR=/logs
+      - LOGWATCH_REPORT_DIR=/reports
+      - LOGWATCH_CONFIG=/app/config/default.json

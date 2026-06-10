@@ -1,0 +1,129 @@
+2025-06-10 09:00:01 INFO  [web-api] Application starting on port 8080
+2025-06-10 09:00:01 INFO  [web-api] Loading configuration from /etc/app/config.yml
+2025-06-10 09:00:02 INFO  [db-pool] Initializing connection pool (min=5, max=20)
+2025-06-10 09:00:02 DEBUG [db-pool] Connecting to postgres://db-primary:5432/appdb
+2025-06-10 09:00:03 INFO  [db-pool] Connection pool ready — 5 connections established
+2025-06-10 09:00:03 INFO  [auth-service] JWT token validator initialized (RS256)
+2025-06-10 09:00:04 INFO  [scheduler] Cron scheduler started — 12 jobs registered
+2025-06-10 09:00:04 INFO  [web-api] Health check endpoint registered at /healthz
+2025-06-10 09:00:05 INFO  [web-api] Server ready — accepting connections
+2025-06-10 09:00:15 INFO  [web-api] GET /api/v1/users 200 12ms
+2025-06-10 09:00:22 INFO  [web-api] POST /api/v1/auth/login 200 45ms
+2025-06-10 09:00:30 DEBUG [auth-service] Token issued for user_id=1042 exp=3600s
+2025-06-10 09:00:45 INFO  [web-api] GET /api/v1/dashboard 200 89ms
+2025-06-10 09:01:02 INFO  [web-api] GET /api/v1/reports?range=7d 200 234ms
+2025-06-10 09:01:15 WARNING [db-pool] Slow query detected: SELECT * FROM audit_logs WHERE created_at > ... (1523ms)
+2025-06-10 09:01:15 INFO  [web-api] GET /api/v1/audit 200 1530ms
+2025-06-10 09:02:00 INFO  [scheduler] Running job: cleanup_temp_files
+2025-06-10 09:02:01 INFO  [scheduler] Job cleanup_temp_files completed — removed 47 files
+2025-06-10 09:02:30 INFO  [web-api] GET /api/v1/users/1042/profile 200 18ms
+2025-06-10 09:03:00 INFO  [web-api] PUT /api/v1/settings 200 32ms
+2025-06-10 09:03:45 WARNING [web-api] Deprecated API call: GET /api/v0/users — this endpoint will be removed in v2.0
+2025-06-10 09:04:10 INFO  [web-api] GET /api/v1/notifications 200 25ms
+2025-06-10 09:04:55 ERROR [db-pool] Database connection failed: could not connect to server — Connection refused (errno=111)
+2025-06-10 09:04:55 ERROR [db-pool] Retrying connection in 5s (attempt 1/3)
+2025-06-10 09:05:00 INFO  [db-pool] Reconnection successful on attempt 2
+2025-06-10 09:05:12 INFO  [web-api] POST /api/v1/uploads 201 512ms
+2025-06-10 09:05:30 INFO  [web-api] GET /api/v1/files/download/a8f3e 200 78ms
+2025-06-10 09:06:00 INFO  [scheduler] Running job: sync_external_data
+2025-06-10 09:06:12 WARNING [scheduler] External API rate limit approaching — 89/100 requests used this window
+2025-06-10 09:06:30 INFO  [scheduler] Job sync_external_data completed — 230 records synced
+2025-06-10 09:07:00 INFO  [web-api] GET /api/v1/search?q=deployment 200 156ms
+2025-06-10 09:07:45 DEBUG [auth-service] Refreshing JWKS key set from https://auth.example.com/.well-known/jwks.json
+2025-06-10 09:08:00 INFO  [web-api] DELETE /api/v1/cache 204 5ms
+2025-06-10 09:08:30 INFO  [web-api] GET /api/v1/metrics 200 12ms
+2025-06-10 09:09:00 ERROR [web-api] HTTP 500 Internal Server Error — GET /api/v1/reports/export
+2025-06-10 09:09:00 ERROR [web-api] NullPointerException: cannot read property 'format' of undefined
+2025-06-10 09:09:00 ERROR [web-api] Traceback (most recent call last):
+  File "/app/logwatch/handlers/report.py", line 142, in export_report
+    formatter = get_formatter(config['export']['format'])
+  File "/app/logwatch/formatters/base.py", line 58, in get_formatter
+    return FORMATTERS[fmt_name]
+KeyError: None
+2025-06-10 09:09:01 INFO  [web-api] Error response sent to client request_id=req-7f3a2b
+2025-06-10 09:10:00 INFO  [scheduler] Running job: health_check_dependencies
+2025-06-10 09:10:02 INFO  [scheduler] Health check: db=OK cache=OK queue=OK storage=OK
+2025-06-10 09:12:00 INFO  [web-api] POST /api/v1/auth/login 200 38ms
+2025-06-10 09:12:30 INFO  [web-api] GET /api/v1/users 200 15ms
+2025-06-10 09:14:00 WARNING [web-api] High memory usage detected: 847MB / 1024MB (82.7%)
+2025-06-10 09:14:00 WARNING [web-api] GC triggered — freed 128MB, current usage 719MB (70.2%)
+2025-06-10 09:15:00 INFO  [web-api] GET /api/v1/projects 200 45ms
+2025-06-10 09:15:30 INFO  [web-api] POST /api/v1/projects 201 67ms
+2025-06-10 09:16:00 INFO  [scheduler] Running job: rotate_logs
+2025-06-10 09:16:01 INFO  [scheduler] Log rotation completed — archived 3 files (12.4MB)
+2025-06-10 09:17:00 INFO  [web-api] GET /api/v1/users/search?name=john 200 23ms
+2025-06-10 09:18:00 ERROR [web-api] HTTP 503 Service Unavailable — POST /api/v1/notifications/send
+2025-06-10 09:18:00 ERROR [web-api] Upstream service 'notification-svc' did not respond within 30s
+2025-06-10 09:18:00 ERROR [web-api] ConnectionTimeoutError: connect ETIMEDOUT 10.0.3.45:8443
+2025-06-10 09:19:00 INFO  [web-api] GET /api/v1/dashboard 200 92ms
+2025-06-10 09:20:00 INFO  [web-api] POST /api/v1/auth/logout 200 8ms
+2025-06-10 09:22:00 INFO  [web-api] GET /api/v1/admin/system-info 200 14ms
+2025-06-10 09:23:00 INFO  [db-pool] Connection pool stats: active=8, idle=12, waiting=0
+2025-06-10 09:25:00 INFO  [web-api] GET /api/v1/files 200 34ms
+2025-06-10 09:26:00 ERROR [web-api] HTTP 404 Not Found — GET /api/v1/users/99999/profile
+2025-06-10 09:26:00 ERROR [web-api] FileNotFoundError: User profile image not found at /storage/avatars/99999.png
+2025-06-10 09:27:00 INFO  [web-api] GET /api/v1/projects/5/tasks 200 56ms
+2025-06-10 09:28:00 INFO  [scheduler] Running job: send_daily_digest
+2025-06-10 09:28:05 INFO  [scheduler] Daily digest sent to 142 recipients
+2025-06-10 09:30:00 INFO  [web-api] GET /api/v1/metrics 200 11ms
+2025-06-10 09:32:00 INFO  [web-api] POST /api/v1/webhooks 201 28ms
+2025-06-10 09:33:00 DEBUG [db-pool] Pruning idle connections — closed 3 connections
+2025-06-10 09:35:00 INFO  [web-api] GET /api/v1/users/1042/activity 200 67ms
+2025-06-10 09:36:00 INFO  [web-api] PATCH /api/v1/users/1042 200 22ms
+2025-06-10 09:38:00 WARNING [db-pool] Connection pool utilization high: 18/20 (90%)
+2025-06-10 09:38:01 INFO  [db-pool] Scaling connection pool to max=30
+2025-06-10 09:40:00 INFO  [scheduler] Running job: sync_external_data
+2025-06-10 09:40:15 INFO  [scheduler] Job sync_external_data completed — 189 records synced
+2025-06-10 09:42:00 INFO  [web-api] GET /api/v1/reports?range=30d 200 478ms
+2025-06-10 09:44:00 INFO  [web-api] POST /api/v1/auth/login 200 41ms
+2025-06-10 09:45:00 INFO  [web-api] GET /api/v1/dashboard 200 85ms
+2025-06-10 09:47:00 ERROR [auth-service] Failed to validate token: JWT signature verification failed (kid=key-2024-rotated)
+2025-06-10 09:47:00 INFO  [auth-service] Fetching updated JWKS from identity provider
+2025-06-10 09:47:01 INFO  [auth-service] JWKS cache refreshed — 3 keys loaded
+2025-06-10 09:48:00 INFO  [web-api] GET /api/v1/search?q=error+logs 200 134ms
+2025-06-10 09:50:00 INFO  [web-api] GET /api/v1/admin/audit-trail 200 210ms
+2025-06-10 09:52:00 CRITICAL [web-api] OUT OF MEMORY — application heap exceeded 1024MB limit
+2025-06-10 09:52:00 CRITICAL [web-api] Emergency GC initiated — dumping heap snapshot to /tmp/heap-20250610-095200.hprof
+2025-06-10 09:52:01 WARNING [web-api] Service degraded — rejecting new connections temporarily
+2025-06-10 09:52:05 INFO  [web-api] Memory reclaimed — heap usage stabilized at 612MB (59.8%)
+2025-06-10 09:52:05 INFO  [web-api] Resuming normal operation
+2025-06-10 09:53:00 INFO  [web-api] GET /api/v1/users 200 16ms
+2025-06-10 09:55:00 INFO  [scheduler] Running job: cleanup_expired_sessions
+2025-06-10 09:55:02 INFO  [scheduler] Cleaned up 83 expired sessions
+2025-06-10 09:57:00 INFO  [web-api] GET /api/v1/notifications 200 19ms
+2025-06-10 09:58:00 INFO  [web-api] POST /api/v1/uploads 201 389ms
+2025-06-10 10:00:00 INFO  [scheduler] Running job: health_check_dependencies
+2025-06-10 10:00:02 INFO  [scheduler] Health check: db=OK cache=OK queue=OK storage=WARN
+2025-06-10 10:00:02 WARNING [scheduler] Storage volume /data is 91% full — consider cleanup
+2025-06-10 10:02:00 INFO  [web-api] GET /api/v1/files 200 31ms
+2025-06-10 10:05:00 INFO  [web-api] GET /api/v1/projects 200 42ms
+2025-06-10 10:07:00 ERROR [db-pool] Database connection lost during query execution — server closed the connection unexpectedly
+2025-06-10 10:07:00 ERROR [db-pool] Attempting automatic reconnection...
+2025-06-10 10:07:02 INFO  [db-pool] Reconnected to database successfully
+2025-06-10 10:08:00 INFO  [web-api] GET /api/v1/dashboard 200 95ms
+2025-06-10 10:10:00 INFO  [web-api] POST /api/v1/auth/login 200 39ms
+2025-06-10 10:12:00 CRITICAL [scheduler] Disk space critically low: /data volume 98% full — writes may fail
+2025-06-10 10:12:01 ERROR [scheduler] Failed to write report: OSError [Errno 28] No space left on device: '/reports/daily_20250610.csv'
+2025-06-10 10:15:00 INFO  [web-api] GET /api/v1/metrics 200 13ms
+2025-06-10 10:18:00 INFO  [web-api] GET /api/v1/users/1042/profile 200 20ms
+2025-06-10 10:20:00 INFO  [scheduler] Running job: rotate_logs
+2025-06-10 10:20:02 INFO  [scheduler] Log rotation completed — archived 2 files (8.7MB)
+2025-06-10 10:22:00 INFO  [web-api] GET /api/v1/reports?range=7d 200 245ms
+2025-06-10 10:25:00 INFO  [web-api] DELETE /api/v1/cache 204 4ms
+2025-06-10 10:28:00 INFO  [web-api] GET /api/v1/admin/system-info 200 15ms
+2025-06-10 10:30:00 INFO  [db-pool] Connection pool stats: active=6, idle=14, waiting=0
+2025-06-10 10:32:00 INFO  [web-api] POST /api/v1/projects/5/tasks 201 54ms
+2025-06-10 10:35:00 INFO  [web-api] GET /api/v1/notifications 200 21ms
+2025-06-10 10:38:00 INFO  [web-api] GET /api/v1/search?q=deployment+status 200 148ms
+2025-06-10 10:40:00 INFO  [scheduler] Running job: sync_external_data
+2025-06-10 10:40:18 INFO  [scheduler] Job sync_external_data completed — 215 records synced
+2025-06-10 10:42:00 INFO  [web-api] GET /api/v1/dashboard 200 87ms
+2025-06-10 10:45:00 INFO  [web-api] POST /api/v1/auth/logout 200 7ms
+2025-06-10 10:48:00 INFO  [web-api] GET /api/v1/files/download/c2d9a 200 65ms
+2025-06-10 10:50:00 INFO  [scheduler] Running job: health_check_dependencies
+2025-06-10 10:50:02 INFO  [scheduler] Health check: db=OK cache=OK queue=OK storage=OK
+2025-06-10 10:52:00 INFO  [web-api] GET /api/v1/users 200 14ms
+2025-06-10 10:55:00 INFO  [web-api] Application shutting down — received SIGTERM
+2025-06-10 10:55:01 INFO  [db-pool] Closing all database connections...
+2025-06-10 10:55:01 INFO  [scheduler] Stopping scheduler — 0 jobs in progress
+2025-06-10 10:55:02 INFO  [web-api] Graceful shutdown complete
