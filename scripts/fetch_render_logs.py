@@ -1,15 +1,24 @@
-#!/usr/bin/env python3
 import os
 import requests
 import json
+import time
+from dotenv import load_dotenv
+from dotenv import load_dotenv
+
+# Load .env file if it exists
+load_dotenv(os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env'))
 
 # Environment Variables
 API_KEY = os.environ.get("LOGWATCH_RENDER_API_KEY")
 OWNER_ID = os.environ.get("LOGWATCH_RENDER_OWNER_ID")
 RESOURCE_ID = os.environ.get("LOGWATCH_RENDER_RESOURCE_ID")
 
-CURSOR_FILE = "/logs/render_cursor.txt"
-LOG_FILE = "/logs/render_app.log"
+# Use local logs directory if not running in Docker
+LOG_DIR = "/logs" if os.path.exists("/logs") else os.path.join(os.path.dirname(os.path.dirname(__file__)), "reports")
+os.makedirs(LOG_DIR, exist_ok=True)
+
+CURSOR_FILE = os.path.join(LOG_DIR, "render_cursor.txt")
+LOG_FILE = os.path.join(LOG_DIR, "render_app.log")
 API_URL = "https://api.render.com/v1/logs"
 
 def main():
@@ -20,7 +29,7 @@ def main():
     # Check for cursor
     start_time = None
     if os.path.exists(CURSOR_FILE):
-        with open(CURSOR_FILE, "r") as f:
+        with open(CURSOR_FILE, "r", encoding="utf-8") as f:
             start_time = f.read().strip()
 
     headers = {
@@ -40,10 +49,18 @@ def main():
     print(f"[*] Fetching Render logs for resource {RESOURCE_ID}...")
     
     all_logs = []
+    max_pages = 20  # Prevent infinite loops / rate limits
+    page = 0
     
     try:
-        while True:
+        while page < max_pages:
+            page += 1
             response = requests.get(API_URL, headers=headers, params=params)
+            
+            if response.status_code == 429:
+                print("[!] Rate limit reached. Stopping fetch for now.")
+                break
+                
             response.raise_for_status()
             data = response.json()
             
@@ -58,13 +75,14 @@ def main():
             if len(logs) < 100:
                 break
                 
-            if "nextStartTime" in data:
+            if isinstance(data, dict) and "nextStartTime" in data:
                 params["startTime"] = data["nextStartTime"]
+                time.sleep(1) # Be nice to the API
             else:
                 break
                 
         if all_logs:
-            with open(LOG_FILE, "a") as f:
+            with open(LOG_FILE, "a", encoding="utf-8") as f:
                 for line in all_logs:
                     f.write(line + "\n")
             
@@ -72,7 +90,7 @@ def main():
             
             last_timestamp = logs[-1].get("timestamp") if logs else start_time
             if last_timestamp:
-                with open(CURSOR_FILE, "w") as f:
+                with open(CURSOR_FILE, "w", encoding="utf-8") as f:
                     f.write(last_timestamp)
         else:
             print("[*] No new logs found.")

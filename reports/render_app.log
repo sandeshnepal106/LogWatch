@@ -1,0 +1,2174 @@
+2026-06-10T10:23:48.567766878Z INFO: errno: undefined,
+2026-06-10T10:23:48.567781448Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:23:48.567784768Z INFO: syscall: 'querySrv',
+2026-06-10T10:23:48.567788288Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:23:48.567791738Z INFO: }
+2026-06-10T10:23:48.567793669Z INFO: 
+2026-06-10T10:23:48.567796378Z INFO: Node.js v22.16.0
+2026-06-10T10:24:05.357539714Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:24:05.742383675Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:24:20.677349342Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:24:20.677353552Z INFO: errno: undefined,
+2026-06-10T10:24:20.677358142Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:24:20.677362432Z INFO: syscall: 'querySrv',
+2026-06-10T10:24:20.677367022Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:24:20.677371272Z INFO: }
+2026-06-10T10:24:20.677375143Z INFO: 
+2026-06-10T10:24:20.677379303Z INFO: Node.js v22.16.0
+2026-06-10T10:25:09.475678279Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:25:10.056471836Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:25:10.508384728Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:25:10.725942552Z INFO: 
+2026-06-10T10:25:10.72628747Z INFO: > server@1.0.0 start
+2026-06-10T10:25:10.72629569Z INFO: > node server.js
+2026-06-10T10:25:10.726298301Z INFO: 
+2026-06-10T10:25:16.271929932Z INFO: 2026-06-10 10:25:16 INFO: Server started at 10000
+2026-06-10T10:25:16.27735716Z INFO: node:internal/dns/promises:294
+2026-06-10T10:25:16.27737304Z INFO: this.reject(new DNSException(err, this.bindingName, this.hostname));
+2026-06-10T10:25:16.277378001Z INFO: ^
+2026-06-10T10:25:16.277382151Z INFO: 
+2026-06-10T10:25:16.277386461Z INFO: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.tacmizj.mongodb.net
+2026-06-10T10:25:16.277391441Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:25:16.277395611Z INFO: errno: undefined,
+2026-06-10T10:25:16.277399741Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:25:16.277403581Z INFO: syscall: 'querySrv',
+2026-06-10T10:25:16.277407972Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:25:16.277411781Z INFO: }
+2026-06-10T10:25:16.277415482Z INFO: 
+2026-06-10T10:25:16.277419362Z INFO: Node.js v22.16.0
+2026-06-10T10:25:57.989393412Z INFO: [0;31m[1m==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.[0m
+2026-06-10T10:25:58.405520335Z INFO: [0;31m[1m==> Docs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:26:48.105376611Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:26:49.234929357Z INFO: 
+2026-06-10T10:26:49.234963528Z INFO: > server@1.0.0 start
+2026-06-10T10:26:49.234968458Z INFO: > node server.js
+2026-06-10T10:26:49.234988988Z INFO: 
+2026-06-10T10:26:56.207390667Z INFO: 2026-06-10 10:26:56 INFO: Server started at 10000
+2026-06-10T10:26:57.32154756Z INFO: Database connected
+2026-06-10T10:29:01.215145378Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:02.223132922Z INFO: 
+2026-06-10T10:29:02.223151143Z INFO: > server@1.0.0 start
+2026-06-10T10:29:02.223154953Z INFO: > node server.js
+2026-06-10T10:29:02.223157893Z INFO: 
+2026-06-10T10:29:06.217669626Z INFO: Server started at 10000
+2026-06-10T10:29:07.200072456Z INFO: Database connected
+2026-06-10T10:29:16.089536006Z INFO: [34m[1m==>(B[m [1mDownloading cache...(B[m
+2026-06-10T10:29:16.124039004Z INFO: [34m[1m==>(B[m [1mCloning from https://github.com/sandeshnepal106/portfolio(B[m
+2026-06-10T10:29:22.278443999Z INFO: [34m[1m==>(B[m [1mChecking out commit 7133d69e8245d87929fdaeb78e622d8a5f90ce9a in branch main(B[m
+2026-06-10T10:29:23.411777301Z INFO: [34m[1m==>(B[m [1mDownloaded 8.2MB in 5s. Extraction took 1s.(B[m
+2026-06-10T10:29:24.201203235Z INFO: [34;1m==>[0;22m [1mUsing Node.js version 22.16.0 (default)[22m
+2026-06-10T10:29:24.201214815Z INFO: [34;1m==>[0;22m [1mDocs on specifying a Node.js version: https://render.com/docs/node-version[22m
+2026-06-10T10:29:24.201394469Z INFO: [34;1m==>[0;22m [1mInstalling Node.js version 22.16.0...[22m
+2026-06-10T10:29:25.188862546Z INFO: [34m[1m==>(B[m [1mRunning build command 'npm install'...(B[m
+2026-06-10T10:29:26.2764041Z INFO: 
+2026-06-10T10:29:26.27643377Z INFO: up to date, audited 175 packages in 1s
+2026-06-10T10:29:26.276445541Z INFO: 
+2026-06-10T10:29:26.276449701Z INFO: 23 packages are looking for funding
+2026-06-10T10:29:26.276454311Z INFO: run `npm fund` for details
+2026-06-10T10:29:26.296897109Z INFO: 
+2026-06-10T10:29:26.29693Z INFO: 12 vulnerabilities (3 moderate, 9 high)
+2026-06-10T10:29:26.29693439Z INFO: 
+2026-06-10T10:29:26.29693923Z INFO: To address issues that do not require attention, run:
+2026-06-10T10:29:26.29694324Z INFO: npm audit fix
+2026-06-10T10:29:26.29694562Z INFO: 
+2026-06-10T10:29:26.296948Z INFO: To address all issues (including breaking changes), run:
+2026-06-10T10:29:26.2969515Z INFO: npm audit fix --force
+2026-06-10T10:29:26.29695384Z INFO: 
+2026-06-10T10:29:26.296956841Z INFO: Run `npm audit` for details.
+2026-06-10T10:29:28.148909466Z INFO: [34;1m==>[0;22m [1mUploading build...[22m
+2026-06-10T10:29:31.351720401Z INFO: [34;1m==>[0;22m [1mUploaded in 1.8s. Compression took 1.4s[22m
+2026-06-10T10:23:48.567766878Z INFO: errno: undefined,
+2026-06-10T10:23:48.567781448Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:23:48.567784768Z INFO: syscall: 'querySrv',
+2026-06-10T10:23:48.567788288Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:23:48.567791738Z INFO: }
+2026-06-10T10:23:48.567793669Z INFO: 
+2026-06-10T10:23:48.567796378Z INFO: Node.js v22.16.0
+2026-06-10T10:24:05.357539714Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:24:05.742383675Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:24:20.677349342Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:24:20.677353552Z INFO: errno: undefined,
+2026-06-10T10:24:20.677358142Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:24:20.677362432Z INFO: syscall: 'querySrv',
+2026-06-10T10:24:20.677367022Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:24:20.677371272Z INFO: }
+2026-06-10T10:24:20.677375143Z INFO: 
+2026-06-10T10:24:20.677379303Z INFO: Node.js v22.16.0
+2026-06-10T10:25:09.475678279Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:25:10.056471836Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:25:10.508384728Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:25:10.725942552Z INFO: 
+2026-06-10T10:25:10.72628747Z INFO: > server@1.0.0 start
+2026-06-10T10:25:10.72629569Z INFO: > node server.js
+2026-06-10T10:25:10.726298301Z INFO: 
+2026-06-10T10:25:16.271929932Z INFO: 2026-06-10 10:25:16 INFO: Server started at 10000
+2026-06-10T10:25:16.27735716Z INFO: node:internal/dns/promises:294
+2026-06-10T10:25:16.27737304Z INFO: this.reject(new DNSException(err, this.bindingName, this.hostname));
+2026-06-10T10:25:16.277378001Z INFO: ^
+2026-06-10T10:25:16.277382151Z INFO: 
+2026-06-10T10:25:16.277386461Z INFO: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.tacmizj.mongodb.net
+2026-06-10T10:25:16.277391441Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:25:16.277395611Z INFO: errno: undefined,
+2026-06-10T10:25:16.277399741Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:25:16.277403581Z INFO: syscall: 'querySrv',
+2026-06-10T10:25:16.277407972Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:25:16.277411781Z INFO: }
+2026-06-10T10:25:16.277415482Z INFO: 
+2026-06-10T10:25:16.277419362Z INFO: Node.js v22.16.0
+2026-06-10T10:25:57.989393412Z INFO: [0;31m[1m==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.[0m
+2026-06-10T10:25:58.405520335Z INFO: [0;31m[1m==> Docs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:26:48.105376611Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:26:49.234929357Z INFO: 
+2026-06-10T10:26:49.234963528Z INFO: > server@1.0.0 start
+2026-06-10T10:26:49.234968458Z INFO: > node server.js
+2026-06-10T10:26:49.234988988Z INFO: 
+2026-06-10T10:26:56.207390667Z INFO: 2026-06-10 10:26:56 INFO: Server started at 10000
+2026-06-10T10:26:57.32154756Z INFO: Database connected
+2026-06-10T10:29:01.215145378Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:02.223132922Z INFO: 
+2026-06-10T10:29:02.223151143Z INFO: > server@1.0.0 start
+2026-06-10T10:29:02.223154953Z INFO: > node server.js
+2026-06-10T10:29:02.223157893Z INFO: 
+2026-06-10T10:29:06.217669626Z INFO: Server started at 10000
+2026-06-10T10:29:07.200072456Z INFO: Database connected
+2026-06-10T10:29:16.089536006Z INFO: [34m[1m==>(B[m [1mDownloading cache...(B[m
+2026-06-10T10:29:16.124039004Z INFO: [34m[1m==>(B[m [1mCloning from https://github.com/sandeshnepal106/portfolio(B[m
+2026-06-10T10:29:22.278443999Z INFO: [34m[1m==>(B[m [1mChecking out commit 7133d69e8245d87929fdaeb78e622d8a5f90ce9a in branch main(B[m
+2026-06-10T10:29:23.411777301Z INFO: [34m[1m==>(B[m [1mDownloaded 8.2MB in 5s. Extraction took 1s.(B[m
+2026-06-10T10:29:24.201203235Z INFO: [34;1m==>[0;22m [1mUsing Node.js version 22.16.0 (default)[22m
+2026-06-10T10:29:24.201214815Z INFO: [34;1m==>[0;22m [1mDocs on specifying a Node.js version: https://render.com/docs/node-version[22m
+2026-06-10T10:29:24.201394469Z INFO: [34;1m==>[0;22m [1mInstalling Node.js version 22.16.0...[22m
+2026-06-10T10:29:25.188862546Z INFO: [34m[1m==>(B[m [1mRunning build command 'npm install'...(B[m
+2026-06-10T10:29:26.2764041Z INFO: 
+2026-06-10T10:29:26.27643377Z INFO: up to date, audited 175 packages in 1s
+2026-06-10T10:29:26.276445541Z INFO: 
+2026-06-10T10:29:26.276449701Z INFO: 23 packages are looking for funding
+2026-06-10T10:29:26.276454311Z INFO: run `npm fund` for details
+2026-06-10T10:29:26.296897109Z INFO: 
+2026-06-10T10:29:26.29693Z INFO: 12 vulnerabilities (3 moderate, 9 high)
+2026-06-10T10:29:26.29693439Z INFO: 
+2026-06-10T10:29:26.29693923Z INFO: To address issues that do not require attention, run:
+2026-06-10T10:29:26.29694324Z INFO: npm audit fix
+2026-06-10T10:29:26.29694562Z INFO: 
+2026-06-10T10:29:26.296948Z INFO: To address all issues (including breaking changes), run:
+2026-06-10T10:29:26.2969515Z INFO: npm audit fix --force
+2026-06-10T10:29:26.29695384Z INFO: 
+2026-06-10T10:29:26.296956841Z INFO: Run `npm audit` for details.
+2026-06-10T10:29:28.148909466Z INFO: [34;1m==>[0;22m [1mUploading build...[22m
+2026-06-10T10:29:31.351720401Z INFO: [34;1m==>[0;22m [1mUploaded in 1.8s. Compression took 1.4s[22m
+2026-06-10T10:23:48.567766878Z INFO: errno: undefined,
+2026-06-10T10:23:48.567781448Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:23:48.567784768Z INFO: syscall: 'querySrv',
+2026-06-10T10:23:48.567788288Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:23:48.567791738Z INFO: }
+2026-06-10T10:23:48.567793669Z INFO: 
+2026-06-10T10:23:48.567796378Z INFO: Node.js v22.16.0
+2026-06-10T10:24:05.357539714Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:24:05.742383675Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:24:20.677349342Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:24:20.677353552Z INFO: errno: undefined,
+2026-06-10T10:24:20.677358142Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:24:20.677362432Z INFO: syscall: 'querySrv',
+2026-06-10T10:24:20.677367022Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:24:20.677371272Z INFO: }
+2026-06-10T10:24:20.677375143Z INFO: 
+2026-06-10T10:24:20.677379303Z INFO: Node.js v22.16.0
+2026-06-10T10:25:09.475678279Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:25:10.056471836Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:25:10.508384728Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:25:10.725942552Z INFO: 
+2026-06-10T10:25:10.72628747Z INFO: > server@1.0.0 start
+2026-06-10T10:25:10.72629569Z INFO: > node server.js
+2026-06-10T10:25:10.726298301Z INFO: 
+2026-06-10T10:25:16.271929932Z INFO: 2026-06-10 10:25:16 INFO: Server started at 10000
+2026-06-10T10:25:16.27735716Z INFO: node:internal/dns/promises:294
+2026-06-10T10:25:16.27737304Z INFO: this.reject(new DNSException(err, this.bindingName, this.hostname));
+2026-06-10T10:25:16.277378001Z INFO: ^
+2026-06-10T10:25:16.277382151Z INFO: 
+2026-06-10T10:25:16.277386461Z INFO: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.tacmizj.mongodb.net
+2026-06-10T10:25:16.277391441Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:25:16.277395611Z INFO: errno: undefined,
+2026-06-10T10:25:16.277399741Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:25:16.277403581Z INFO: syscall: 'querySrv',
+2026-06-10T10:25:16.277407972Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:25:16.277411781Z INFO: }
+2026-06-10T10:25:16.277415482Z INFO: 
+2026-06-10T10:25:16.277419362Z INFO: Node.js v22.16.0
+2026-06-10T10:25:57.989393412Z INFO: [0;31m[1m==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.[0m
+2026-06-10T10:25:58.405520335Z INFO: [0;31m[1m==> Docs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:26:48.105376611Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:26:49.234929357Z INFO: 
+2026-06-10T10:26:49.234963528Z INFO: > server@1.0.0 start
+2026-06-10T10:26:49.234968458Z INFO: > node server.js
+2026-06-10T10:26:49.234988988Z INFO: 
+2026-06-10T10:26:56.207390667Z INFO: 2026-06-10 10:26:56 INFO: Server started at 10000
+2026-06-10T10:26:57.32154756Z INFO: Database connected
+2026-06-10T10:29:01.215145378Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:02.223132922Z INFO: 
+2026-06-10T10:29:02.223151143Z INFO: > server@1.0.0 start
+2026-06-10T10:29:02.223154953Z INFO: > node server.js
+2026-06-10T10:29:02.223157893Z INFO: 
+2026-06-10T10:29:06.217669626Z INFO: Server started at 10000
+2026-06-10T10:29:07.200072456Z INFO: Database connected
+2026-06-10T10:29:16.089536006Z INFO: [34m[1m==>(B[m [1mDownloading cache...(B[m
+2026-06-10T10:29:16.124039004Z INFO: [34m[1m==>(B[m [1mCloning from https://github.com/sandeshnepal106/portfolio(B[m
+2026-06-10T10:29:22.278443999Z INFO: [34m[1m==>(B[m [1mChecking out commit 7133d69e8245d87929fdaeb78e622d8a5f90ce9a in branch main(B[m
+2026-06-10T10:29:23.411777301Z INFO: [34m[1m==>(B[m [1mDownloaded 8.2MB in 5s. Extraction took 1s.(B[m
+2026-06-10T10:29:24.201203235Z INFO: [34;1m==>[0;22m [1mUsing Node.js version 22.16.0 (default)[22m
+2026-06-10T10:29:24.201214815Z INFO: [34;1m==>[0;22m [1mDocs on specifying a Node.js version: https://render.com/docs/node-version[22m
+2026-06-10T10:29:24.201394469Z INFO: [34;1m==>[0;22m [1mInstalling Node.js version 22.16.0...[22m
+2026-06-10T10:29:25.188862546Z INFO: [34m[1m==>(B[m [1mRunning build command 'npm install'...(B[m
+2026-06-10T10:29:26.2764041Z INFO: 
+2026-06-10T10:29:26.27643377Z INFO: up to date, audited 175 packages in 1s
+2026-06-10T10:29:26.276445541Z INFO: 
+2026-06-10T10:29:26.276449701Z INFO: 23 packages are looking for funding
+2026-06-10T10:29:26.276454311Z INFO: run `npm fund` for details
+2026-06-10T10:29:26.296897109Z INFO: 
+2026-06-10T10:29:26.29693Z INFO: 12 vulnerabilities (3 moderate, 9 high)
+2026-06-10T10:29:26.29693439Z INFO: 
+2026-06-10T10:29:26.29693923Z INFO: To address issues that do not require attention, run:
+2026-06-10T10:29:26.29694324Z INFO: npm audit fix
+2026-06-10T10:29:26.29694562Z INFO: 
+2026-06-10T10:29:26.296948Z INFO: To address all issues (including breaking changes), run:
+2026-06-10T10:29:26.2969515Z INFO: npm audit fix --force
+2026-06-10T10:29:26.29695384Z INFO: 
+2026-06-10T10:29:26.296956841Z INFO: Run `npm audit` for details.
+2026-06-10T10:29:28.148909466Z INFO: [34;1m==>[0;22m [1mUploading build...[22m
+2026-06-10T10:29:31.351720401Z INFO: [34;1m==>[0;22m [1mUploaded in 1.8s. Compression took 1.4s[22m
+2026-06-10T10:29:31.367631507Z INFO: [32;1m==>[0;22m [1mBuild successful 🎉[22m
+2026-06-10T10:29:40.211327853Z INFO: [0;34m[1m==> [0m[1mDeploying...[0m
+2026-06-10T10:29:51.326396978Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:52.322445953Z INFO: 
+2026-06-10T10:29:52.322477084Z INFO: > server@1.0.0 start
+2026-06-10T10:29:52.322481514Z INFO: > node server.js
+2026-06-10T10:29:52.322484614Z INFO: 
+2026-06-10T10:29:56.836175382Z INFO: 2026-06-10 10:29:56 INFO: Server started at 10000
+2026-06-10T10:29:57.563219907Z INFO: 2026-06-10 10:29:57 INFO: Incoming HEAD request to /
+2026-06-10T10:29:58.074797854Z INFO: Database connected
+2026-06-10T10:30:01.448912005Z INFO: [0;32m[1m==> [0m[1mYour service is live 🎉[0m
+2026-06-10T10:30:01.507845407Z INFO: 2026-06-10 10:30:01 INFO: Incoming GET request to /
+2026-06-10T10:30:01.692205688Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.694795044Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:30:01.697149284Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.699447001Z INFO: [0;32m[1m==> [0m[1mAvailable at your primary URL https://portfolio-backend-vwhl.onrender.com[0m
+2026-06-10T10:30:01.702115023Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.704074896Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:31:44.269492585Z INFO: 2026-06-10 10:31:44 INFO: Incoming POST request to /api/visitor/contact
+2026-06-10T10:35:06.391943962Z INFO: [0;32m[1m==> [0m[1mDetected service running on port 10000[0m
+2026-06-10T10:35:07.549275558Z INFO: [0;32m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:23:48.567766878Z INFO: errno: undefined,
+2026-06-10T10:23:48.567781448Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:23:48.567784768Z INFO: syscall: 'querySrv',
+2026-06-10T10:23:48.567788288Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:23:48.567791738Z INFO: }
+2026-06-10T10:23:48.567793669Z INFO: 
+2026-06-10T10:23:48.567796378Z INFO: Node.js v22.16.0
+2026-06-10T10:24:05.357539714Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:24:05.742383675Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:24:20.677349342Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:24:20.677353552Z INFO: errno: undefined,
+2026-06-10T10:24:20.677358142Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:24:20.677362432Z INFO: syscall: 'querySrv',
+2026-06-10T10:24:20.677367022Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:24:20.677371272Z INFO: }
+2026-06-10T10:24:20.677375143Z INFO: 
+2026-06-10T10:24:20.677379303Z INFO: Node.js v22.16.0
+2026-06-10T10:25:09.475678279Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:25:10.056471836Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:25:10.508384728Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:25:10.725942552Z INFO: 
+2026-06-10T10:25:10.72628747Z INFO: > server@1.0.0 start
+2026-06-10T10:25:10.72629569Z INFO: > node server.js
+2026-06-10T10:25:10.726298301Z INFO: 
+2026-06-10T10:25:16.271929932Z INFO: 2026-06-10 10:25:16 INFO: Server started at 10000
+2026-06-10T10:25:16.27735716Z INFO: node:internal/dns/promises:294
+2026-06-10T10:25:16.27737304Z INFO: this.reject(new DNSException(err, this.bindingName, this.hostname));
+2026-06-10T10:25:16.277378001Z INFO: ^
+2026-06-10T10:25:16.277382151Z INFO: 
+2026-06-10T10:25:16.277386461Z INFO: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.tacmizj.mongodb.net
+2026-06-10T10:25:16.277391441Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:25:16.277395611Z INFO: errno: undefined,
+2026-06-10T10:25:16.277399741Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:25:16.277403581Z INFO: syscall: 'querySrv',
+2026-06-10T10:25:16.277407972Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:25:16.277411781Z INFO: }
+2026-06-10T10:25:16.277415482Z INFO: 
+2026-06-10T10:25:16.277419362Z INFO: Node.js v22.16.0
+2026-06-10T10:25:57.989393412Z INFO: [0;31m[1m==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.[0m
+2026-06-10T10:25:58.405520335Z INFO: [0;31m[1m==> Docs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:26:48.105376611Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:26:49.234929357Z INFO: 
+2026-06-10T10:26:49.234963528Z INFO: > server@1.0.0 start
+2026-06-10T10:26:49.234968458Z INFO: > node server.js
+2026-06-10T10:26:49.234988988Z INFO: 
+2026-06-10T10:26:56.207390667Z INFO: 2026-06-10 10:26:56 INFO: Server started at 10000
+2026-06-10T10:26:57.32154756Z INFO: Database connected
+2026-06-10T10:29:01.215145378Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:02.223132922Z INFO: 
+2026-06-10T10:29:02.223151143Z INFO: > server@1.0.0 start
+2026-06-10T10:29:02.223154953Z INFO: > node server.js
+2026-06-10T10:29:02.223157893Z INFO: 
+2026-06-10T10:29:06.217669626Z INFO: Server started at 10000
+2026-06-10T10:29:07.200072456Z INFO: Database connected
+2026-06-10T10:29:16.089536006Z INFO: [34m[1m==>(B[m [1mDownloading cache...(B[m
+2026-06-10T10:29:16.124039004Z INFO: [34m[1m==>(B[m [1mCloning from https://github.com/sandeshnepal106/portfolio(B[m
+2026-06-10T10:29:22.278443999Z INFO: [34m[1m==>(B[m [1mChecking out commit 7133d69e8245d87929fdaeb78e622d8a5f90ce9a in branch main(B[m
+2026-06-10T10:29:23.411777301Z INFO: [34m[1m==>(B[m [1mDownloaded 8.2MB in 5s. Extraction took 1s.(B[m
+2026-06-10T10:29:24.201203235Z INFO: [34;1m==>[0;22m [1mUsing Node.js version 22.16.0 (default)[22m
+2026-06-10T10:29:24.201214815Z INFO: [34;1m==>[0;22m [1mDocs on specifying a Node.js version: https://render.com/docs/node-version[22m
+2026-06-10T10:29:24.201394469Z INFO: [34;1m==>[0;22m [1mInstalling Node.js version 22.16.0...[22m
+2026-06-10T10:29:25.188862546Z INFO: [34m[1m==>(B[m [1mRunning build command 'npm install'...(B[m
+2026-06-10T10:29:26.2764041Z INFO: 
+2026-06-10T10:29:26.27643377Z INFO: up to date, audited 175 packages in 1s
+2026-06-10T10:29:26.276445541Z INFO: 
+2026-06-10T10:29:26.276449701Z INFO: 23 packages are looking for funding
+2026-06-10T10:29:26.276454311Z INFO: run `npm fund` for details
+2026-06-10T10:29:26.296897109Z INFO: 
+2026-06-10T10:29:26.29693Z INFO: 12 vulnerabilities (3 moderate, 9 high)
+2026-06-10T10:29:26.29693439Z INFO: 
+2026-06-10T10:29:26.29693923Z INFO: To address issues that do not require attention, run:
+2026-06-10T10:29:26.29694324Z INFO: npm audit fix
+2026-06-10T10:29:26.29694562Z INFO: 
+2026-06-10T10:29:26.296948Z INFO: To address all issues (including breaking changes), run:
+2026-06-10T10:29:26.2969515Z INFO: npm audit fix --force
+2026-06-10T10:29:26.29695384Z INFO: 
+2026-06-10T10:29:26.296956841Z INFO: Run `npm audit` for details.
+2026-06-10T10:29:28.148909466Z INFO: [34;1m==>[0;22m [1mUploading build...[22m
+2026-06-10T10:29:31.351720401Z INFO: [34;1m==>[0;22m [1mUploaded in 1.8s. Compression took 1.4s[22m
+2026-06-10T10:29:31.367631507Z INFO: [32;1m==>[0;22m [1mBuild successful 🎉[22m
+2026-06-10T10:29:40.211327853Z INFO: [0;34m[1m==> [0m[1mDeploying...[0m
+2026-06-10T10:29:51.326396978Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:52.322445953Z INFO: 
+2026-06-10T10:29:52.322477084Z INFO: > server@1.0.0 start
+2026-06-10T10:29:52.322481514Z INFO: > node server.js
+2026-06-10T10:29:52.322484614Z INFO: 
+2026-06-10T10:29:56.836175382Z INFO: 2026-06-10 10:29:56 INFO: Server started at 10000
+2026-06-10T10:29:57.563219907Z INFO: 2026-06-10 10:29:57 INFO: Incoming HEAD request to /
+2026-06-10T10:29:58.074797854Z INFO: Database connected
+2026-06-10T10:30:01.448912005Z INFO: [0;32m[1m==> [0m[1mYour service is live 🎉[0m
+2026-06-10T10:30:01.507845407Z INFO: 2026-06-10 10:30:01 INFO: Incoming GET request to /
+2026-06-10T10:30:01.692205688Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.694795044Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:30:01.697149284Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.699447001Z INFO: [0;32m[1m==> [0m[1mAvailable at your primary URL https://portfolio-backend-vwhl.onrender.com[0m
+2026-06-10T10:30:01.702115023Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.704074896Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:31:44.269492585Z INFO: 2026-06-10 10:31:44 INFO: Incoming POST request to /api/visitor/contact
+2026-06-10T10:35:06.391943962Z INFO: [0;32m[1m==> [0m[1mDetected service running on port 10000[0m
+2026-06-10T10:35:07.549275558Z INFO: [0;32m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:23:48.567766878Z INFO: errno: undefined,
+2026-06-10T10:23:48.567781448Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:23:48.567784768Z INFO: syscall: 'querySrv',
+2026-06-10T10:23:48.567788288Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:23:48.567791738Z INFO: }
+2026-06-10T10:23:48.567793669Z INFO: 
+2026-06-10T10:23:48.567796378Z INFO: Node.js v22.16.0
+2026-06-10T10:24:05.357539714Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:24:05.742383675Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:24:20.677349342Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:24:20.677353552Z INFO: errno: undefined,
+2026-06-10T10:24:20.677358142Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:24:20.677362432Z INFO: syscall: 'querySrv',
+2026-06-10T10:24:20.677367022Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:24:20.677371272Z INFO: }
+2026-06-10T10:24:20.677375143Z INFO: 
+2026-06-10T10:24:20.677379303Z INFO: Node.js v22.16.0
+2026-06-10T10:25:09.475678279Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:25:10.056471836Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:25:10.508384728Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:25:10.725942552Z INFO: 
+2026-06-10T10:25:10.72628747Z INFO: > server@1.0.0 start
+2026-06-10T10:25:10.72629569Z INFO: > node server.js
+2026-06-10T10:25:10.726298301Z INFO: 
+2026-06-10T10:25:16.271929932Z INFO: 2026-06-10 10:25:16 INFO: Server started at 10000
+2026-06-10T10:25:16.27735716Z INFO: node:internal/dns/promises:294
+2026-06-10T10:25:16.27737304Z INFO: this.reject(new DNSException(err, this.bindingName, this.hostname));
+2026-06-10T10:25:16.277378001Z INFO: ^
+2026-06-10T10:25:16.277382151Z INFO: 
+2026-06-10T10:25:16.277386461Z INFO: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.tacmizj.mongodb.net
+2026-06-10T10:25:16.277391441Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:25:16.277395611Z INFO: errno: undefined,
+2026-06-10T10:25:16.277399741Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:25:16.277403581Z INFO: syscall: 'querySrv',
+2026-06-10T10:25:16.277407972Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:25:16.277411781Z INFO: }
+2026-06-10T10:25:16.277415482Z INFO: 
+2026-06-10T10:25:16.277419362Z INFO: Node.js v22.16.0
+2026-06-10T10:25:57.989393412Z INFO: [0;31m[1m==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.[0m
+2026-06-10T10:25:58.405520335Z INFO: [0;31m[1m==> Docs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:26:48.105376611Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:26:49.234929357Z INFO: 
+2026-06-10T10:26:49.234963528Z INFO: > server@1.0.0 start
+2026-06-10T10:26:49.234968458Z INFO: > node server.js
+2026-06-10T10:26:49.234988988Z INFO: 
+2026-06-10T10:26:56.207390667Z INFO: 2026-06-10 10:26:56 INFO: Server started at 10000
+2026-06-10T10:26:57.32154756Z INFO: Database connected
+2026-06-10T10:29:01.215145378Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:02.223132922Z INFO: 
+2026-06-10T10:29:02.223151143Z INFO: > server@1.0.0 start
+2026-06-10T10:29:02.223154953Z INFO: > node server.js
+2026-06-10T10:29:02.223157893Z INFO: 
+2026-06-10T10:29:06.217669626Z INFO: Server started at 10000
+2026-06-10T10:29:07.200072456Z INFO: Database connected
+2026-06-10T10:29:16.089536006Z INFO: [34m[1m==>(B[m [1mDownloading cache...(B[m
+2026-06-10T10:29:16.124039004Z INFO: [34m[1m==>(B[m [1mCloning from https://github.com/sandeshnepal106/portfolio(B[m
+2026-06-10T10:29:22.278443999Z INFO: [34m[1m==>(B[m [1mChecking out commit 7133d69e8245d87929fdaeb78e622d8a5f90ce9a in branch main(B[m
+2026-06-10T10:29:23.411777301Z INFO: [34m[1m==>(B[m [1mDownloaded 8.2MB in 5s. Extraction took 1s.(B[m
+2026-06-10T10:29:24.201203235Z INFO: [34;1m==>[0;22m [1mUsing Node.js version 22.16.0 (default)[22m
+2026-06-10T10:29:24.201214815Z INFO: [34;1m==>[0;22m [1mDocs on specifying a Node.js version: https://render.com/docs/node-version[22m
+2026-06-10T10:29:24.201394469Z INFO: [34;1m==>[0;22m [1mInstalling Node.js version 22.16.0...[22m
+2026-06-10T10:29:25.188862546Z INFO: [34m[1m==>(B[m [1mRunning build command 'npm install'...(B[m
+2026-06-10T10:29:26.2764041Z INFO: 
+2026-06-10T10:29:26.27643377Z INFO: up to date, audited 175 packages in 1s
+2026-06-10T10:29:26.276445541Z INFO: 
+2026-06-10T10:29:26.276449701Z INFO: 23 packages are looking for funding
+2026-06-10T10:29:26.276454311Z INFO: run `npm fund` for details
+2026-06-10T10:29:26.296897109Z INFO: 
+2026-06-10T10:29:26.29693Z INFO: 12 vulnerabilities (3 moderate, 9 high)
+2026-06-10T10:29:26.29693439Z INFO: 
+2026-06-10T10:29:26.29693923Z INFO: To address issues that do not require attention, run:
+2026-06-10T10:29:26.29694324Z INFO: npm audit fix
+2026-06-10T10:29:26.29694562Z INFO: 
+2026-06-10T10:29:26.296948Z INFO: To address all issues (including breaking changes), run:
+2026-06-10T10:29:26.2969515Z INFO: npm audit fix --force
+2026-06-10T10:29:26.29695384Z INFO: 
+2026-06-10T10:29:26.296956841Z INFO: Run `npm audit` for details.
+2026-06-10T10:29:28.148909466Z INFO: [34;1m==>[0;22m [1mUploading build...[22m
+2026-06-10T10:29:31.351720401Z INFO: [34;1m==>[0;22m [1mUploaded in 1.8s. Compression took 1.4s[22m
+2026-06-10T10:29:31.367631507Z INFO: [32;1m==>[0;22m [1mBuild successful 🎉[22m
+2026-06-10T10:29:40.211327853Z INFO: [0;34m[1m==> [0m[1mDeploying...[0m
+2026-06-10T10:29:51.326396978Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:52.322445953Z INFO: 
+2026-06-10T10:29:52.322477084Z INFO: > server@1.0.0 start
+2026-06-10T10:29:52.322481514Z INFO: > node server.js
+2026-06-10T10:29:52.322484614Z INFO: 
+2026-06-10T10:29:56.836175382Z INFO: 2026-06-10 10:29:56 INFO: Server started at 10000
+2026-06-10T10:29:57.563219907Z INFO: 2026-06-10 10:29:57 INFO: Incoming HEAD request to /
+2026-06-10T10:29:58.074797854Z INFO: Database connected
+2026-06-10T10:30:01.448912005Z INFO: [0;32m[1m==> [0m[1mYour service is live 🎉[0m
+2026-06-10T10:30:01.507845407Z INFO: 2026-06-10 10:30:01 INFO: Incoming GET request to /
+2026-06-10T10:30:01.692205688Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.694795044Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:30:01.697149284Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.699447001Z INFO: [0;32m[1m==> [0m[1mAvailable at your primary URL https://portfolio-backend-vwhl.onrender.com[0m
+2026-06-10T10:30:01.702115023Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.704074896Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:31:44.269492585Z INFO: 2026-06-10 10:31:44 INFO: Incoming POST request to /api/visitor/contact
+2026-06-10T10:35:06.391943962Z INFO: [0;32m[1m==> [0m[1mDetected service running on port 10000[0m
+2026-06-10T10:35:07.549275558Z INFO: [0;32m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:23:48.567766878Z INFO: errno: undefined,
+2026-06-10T10:23:48.567781448Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:23:48.567784768Z INFO: syscall: 'querySrv',
+2026-06-10T10:23:48.567788288Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:23:48.567791738Z INFO: }
+2026-06-10T10:23:48.567793669Z INFO: 
+2026-06-10T10:23:48.567796378Z INFO: Node.js v22.16.0
+2026-06-10T10:24:05.357539714Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:24:05.742383675Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:24:20.677349342Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:24:20.677353552Z INFO: errno: undefined,
+2026-06-10T10:24:20.677358142Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:24:20.677362432Z INFO: syscall: 'querySrv',
+2026-06-10T10:24:20.677367022Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:24:20.677371272Z INFO: }
+2026-06-10T10:24:20.677375143Z INFO: 
+2026-06-10T10:24:20.677379303Z INFO: Node.js v22.16.0
+2026-06-10T10:25:09.475678279Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:25:10.056471836Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:25:10.508384728Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:25:10.725942552Z INFO: 
+2026-06-10T10:25:10.72628747Z INFO: > server@1.0.0 start
+2026-06-10T10:25:10.72629569Z INFO: > node server.js
+2026-06-10T10:25:10.726298301Z INFO: 
+2026-06-10T10:25:16.271929932Z INFO: 2026-06-10 10:25:16 INFO: Server started at 10000
+2026-06-10T10:25:16.27735716Z INFO: node:internal/dns/promises:294
+2026-06-10T10:25:16.27737304Z INFO: this.reject(new DNSException(err, this.bindingName, this.hostname));
+2026-06-10T10:25:16.277378001Z INFO: ^
+2026-06-10T10:25:16.277382151Z INFO: 
+2026-06-10T10:25:16.277386461Z INFO: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.tacmizj.mongodb.net
+2026-06-10T10:25:16.277391441Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:25:16.277395611Z INFO: errno: undefined,
+2026-06-10T10:25:16.277399741Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:25:16.277403581Z INFO: syscall: 'querySrv',
+2026-06-10T10:25:16.277407972Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:25:16.277411781Z INFO: }
+2026-06-10T10:25:16.277415482Z INFO: 
+2026-06-10T10:25:16.277419362Z INFO: Node.js v22.16.0
+2026-06-10T10:25:57.989393412Z INFO: [0;31m[1m==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.[0m
+2026-06-10T10:25:58.405520335Z INFO: [0;31m[1m==> Docs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:26:48.105376611Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:26:49.234929357Z INFO: 
+2026-06-10T10:26:49.234963528Z INFO: > server@1.0.0 start
+2026-06-10T10:26:49.234968458Z INFO: > node server.js
+2026-06-10T10:26:49.234988988Z INFO: 
+2026-06-10T10:26:56.207390667Z INFO: 2026-06-10 10:26:56 INFO: Server started at 10000
+2026-06-10T10:26:57.32154756Z INFO: Database connected
+2026-06-10T10:29:01.215145378Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:02.223132922Z INFO: 
+2026-06-10T10:29:02.223151143Z INFO: > server@1.0.0 start
+2026-06-10T10:29:02.223154953Z INFO: > node server.js
+2026-06-10T10:29:02.223157893Z INFO: 
+2026-06-10T10:29:06.217669626Z INFO: Server started at 10000
+2026-06-10T10:29:07.200072456Z INFO: Database connected
+2026-06-10T10:29:16.089536006Z INFO: [34m[1m==>(B[m [1mDownloading cache...(B[m
+2026-06-10T10:29:16.124039004Z INFO: [34m[1m==>(B[m [1mCloning from https://github.com/sandeshnepal106/portfolio(B[m
+2026-06-10T10:29:22.278443999Z INFO: [34m[1m==>(B[m [1mChecking out commit 7133d69e8245d87929fdaeb78e622d8a5f90ce9a in branch main(B[m
+2026-06-10T10:29:23.411777301Z INFO: [34m[1m==>(B[m [1mDownloaded 8.2MB in 5s. Extraction took 1s.(B[m
+2026-06-10T10:29:24.201203235Z INFO: [34;1m==>[0;22m [1mUsing Node.js version 22.16.0 (default)[22m
+2026-06-10T10:29:24.201214815Z INFO: [34;1m==>[0;22m [1mDocs on specifying a Node.js version: https://render.com/docs/node-version[22m
+2026-06-10T10:29:24.201394469Z INFO: [34;1m==>[0;22m [1mInstalling Node.js version 22.16.0...[22m
+2026-06-10T10:29:25.188862546Z INFO: [34m[1m==>(B[m [1mRunning build command 'npm install'...(B[m
+2026-06-10T10:29:26.2764041Z INFO: 
+2026-06-10T10:29:26.27643377Z INFO: up to date, audited 175 packages in 1s
+2026-06-10T10:29:26.276445541Z INFO: 
+2026-06-10T10:29:26.276449701Z INFO: 23 packages are looking for funding
+2026-06-10T10:29:26.276454311Z INFO: run `npm fund` for details
+2026-06-10T10:29:26.296897109Z INFO: 
+2026-06-10T10:29:26.29693Z INFO: 12 vulnerabilities (3 moderate, 9 high)
+2026-06-10T10:29:26.29693439Z INFO: 
+2026-06-10T10:29:26.29693923Z INFO: To address issues that do not require attention, run:
+2026-06-10T10:29:26.29694324Z INFO: npm audit fix
+2026-06-10T10:29:26.29694562Z INFO: 
+2026-06-10T10:29:26.296948Z INFO: To address all issues (including breaking changes), run:
+2026-06-10T10:29:26.2969515Z INFO: npm audit fix --force
+2026-06-10T10:29:26.29695384Z INFO: 
+2026-06-10T10:29:26.296956841Z INFO: Run `npm audit` for details.
+2026-06-10T10:29:28.148909466Z INFO: [34;1m==>[0;22m [1mUploading build...[22m
+2026-06-10T10:29:31.351720401Z INFO: [34;1m==>[0;22m [1mUploaded in 1.8s. Compression took 1.4s[22m
+2026-06-10T10:29:31.367631507Z INFO: [32;1m==>[0;22m [1mBuild successful 🎉[22m
+2026-06-10T10:29:40.211327853Z INFO: [0;34m[1m==> [0m[1mDeploying...[0m
+2026-06-10T10:29:51.326396978Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:52.322445953Z INFO: 
+2026-06-10T10:29:52.322477084Z INFO: > server@1.0.0 start
+2026-06-10T10:29:52.322481514Z INFO: > node server.js
+2026-06-10T10:29:52.322484614Z INFO: 
+2026-06-10T10:29:56.836175382Z INFO: 2026-06-10 10:29:56 INFO: Server started at 10000
+2026-06-10T10:29:57.563219907Z INFO: 2026-06-10 10:29:57 INFO: Incoming HEAD request to /
+2026-06-10T10:29:58.074797854Z INFO: Database connected
+2026-06-10T10:30:01.448912005Z INFO: [0;32m[1m==> [0m[1mYour service is live 🎉[0m
+2026-06-10T10:30:01.507845407Z INFO: 2026-06-10 10:30:01 INFO: Incoming GET request to /
+2026-06-10T10:30:01.692205688Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.694795044Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:30:01.697149284Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.699447001Z INFO: [0;32m[1m==> [0m[1mAvailable at your primary URL https://portfolio-backend-vwhl.onrender.com[0m
+2026-06-10T10:30:01.702115023Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.704074896Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:31:44.269492585Z INFO: 2026-06-10 10:31:44 INFO: Incoming POST request to /api/visitor/contact
+2026-06-10T10:35:06.391943962Z INFO: [0;32m[1m==> [0m[1mDetected service running on port 10000[0m
+2026-06-10T10:35:07.549275558Z INFO: [0;32m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:23:48.567766878Z INFO: errno: undefined,
+2026-06-10T10:23:48.567781448Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:23:48.567784768Z INFO: syscall: 'querySrv',
+2026-06-10T10:23:48.567788288Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:23:48.567791738Z INFO: }
+2026-06-10T10:23:48.567793669Z INFO: 
+2026-06-10T10:23:48.567796378Z INFO: Node.js v22.16.0
+2026-06-10T10:24:05.357539714Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:24:05.742383675Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:24:20.677349342Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:24:20.677353552Z INFO: errno: undefined,
+2026-06-10T10:24:20.677358142Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:24:20.677362432Z INFO: syscall: 'querySrv',
+2026-06-10T10:24:20.677367022Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:24:20.677371272Z INFO: }
+2026-06-10T10:24:20.677375143Z INFO: 
+2026-06-10T10:24:20.677379303Z INFO: Node.js v22.16.0
+2026-06-10T10:25:09.475678279Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:25:10.056471836Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:25:10.508384728Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:25:10.725942552Z INFO: 
+2026-06-10T10:25:10.72628747Z INFO: > server@1.0.0 start
+2026-06-10T10:25:10.72629569Z INFO: > node server.js
+2026-06-10T10:25:10.726298301Z INFO: 
+2026-06-10T10:25:16.271929932Z INFO: 2026-06-10 10:25:16 INFO: Server started at 10000
+2026-06-10T10:25:16.27735716Z INFO: node:internal/dns/promises:294
+2026-06-10T10:25:16.27737304Z INFO: this.reject(new DNSException(err, this.bindingName, this.hostname));
+2026-06-10T10:25:16.277378001Z INFO: ^
+2026-06-10T10:25:16.277382151Z INFO: 
+2026-06-10T10:25:16.277386461Z INFO: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.tacmizj.mongodb.net
+2026-06-10T10:25:16.277391441Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:25:16.277395611Z INFO: errno: undefined,
+2026-06-10T10:25:16.277399741Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:25:16.277403581Z INFO: syscall: 'querySrv',
+2026-06-10T10:25:16.277407972Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:25:16.277411781Z INFO: }
+2026-06-10T10:25:16.277415482Z INFO: 
+2026-06-10T10:25:16.277419362Z INFO: Node.js v22.16.0
+2026-06-10T10:25:57.989393412Z INFO: [0;31m[1m==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.[0m
+2026-06-10T10:25:58.405520335Z INFO: [0;31m[1m==> Docs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:26:48.105376611Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:26:49.234929357Z INFO: 
+2026-06-10T10:26:49.234963528Z INFO: > server@1.0.0 start
+2026-06-10T10:26:49.234968458Z INFO: > node server.js
+2026-06-10T10:26:49.234988988Z INFO: 
+2026-06-10T10:26:56.207390667Z INFO: 2026-06-10 10:26:56 INFO: Server started at 10000
+2026-06-10T10:26:57.32154756Z INFO: Database connected
+2026-06-10T10:29:01.215145378Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:02.223132922Z INFO: 
+2026-06-10T10:29:02.223151143Z INFO: > server@1.0.0 start
+2026-06-10T10:29:02.223154953Z INFO: > node server.js
+2026-06-10T10:29:02.223157893Z INFO: 
+2026-06-10T10:29:06.217669626Z INFO: Server started at 10000
+2026-06-10T10:29:07.200072456Z INFO: Database connected
+2026-06-10T10:29:16.089536006Z INFO: [34m[1m==>(B[m [1mDownloading cache...(B[m
+2026-06-10T10:29:16.124039004Z INFO: [34m[1m==>(B[m [1mCloning from https://github.com/sandeshnepal106/portfolio(B[m
+2026-06-10T10:29:22.278443999Z INFO: [34m[1m==>(B[m [1mChecking out commit 7133d69e8245d87929fdaeb78e622d8a5f90ce9a in branch main(B[m
+2026-06-10T10:29:23.411777301Z INFO: [34m[1m==>(B[m [1mDownloaded 8.2MB in 5s. Extraction took 1s.(B[m
+2026-06-10T10:29:24.201203235Z INFO: [34;1m==>[0;22m [1mUsing Node.js version 22.16.0 (default)[22m
+2026-06-10T10:29:24.201214815Z INFO: [34;1m==>[0;22m [1mDocs on specifying a Node.js version: https://render.com/docs/node-version[22m
+2026-06-10T10:29:24.201394469Z INFO: [34;1m==>[0;22m [1mInstalling Node.js version 22.16.0...[22m
+2026-06-10T10:29:25.188862546Z INFO: [34m[1m==>(B[m [1mRunning build command 'npm install'...(B[m
+2026-06-10T10:29:26.2764041Z INFO: 
+2026-06-10T10:29:26.27643377Z INFO: up to date, audited 175 packages in 1s
+2026-06-10T10:29:26.276445541Z INFO: 
+2026-06-10T10:29:26.276449701Z INFO: 23 packages are looking for funding
+2026-06-10T10:29:26.276454311Z INFO: run `npm fund` for details
+2026-06-10T10:29:26.296897109Z INFO: 
+2026-06-10T10:29:26.29693Z INFO: 12 vulnerabilities (3 moderate, 9 high)
+2026-06-10T10:29:26.29693439Z INFO: 
+2026-06-10T10:29:26.29693923Z INFO: To address issues that do not require attention, run:
+2026-06-10T10:29:26.29694324Z INFO: npm audit fix
+2026-06-10T10:29:26.29694562Z INFO: 
+2026-06-10T10:29:26.296948Z INFO: To address all issues (including breaking changes), run:
+2026-06-10T10:29:26.2969515Z INFO: npm audit fix --force
+2026-06-10T10:29:26.29695384Z INFO: 
+2026-06-10T10:29:26.296956841Z INFO: Run `npm audit` for details.
+2026-06-10T10:29:28.148909466Z INFO: [34;1m==>[0;22m [1mUploading build...[22m
+2026-06-10T10:29:31.351720401Z INFO: [34;1m==>[0;22m [1mUploaded in 1.8s. Compression took 1.4s[22m
+2026-06-10T10:29:31.367631507Z INFO: [32;1m==>[0;22m [1mBuild successful 🎉[22m
+2026-06-10T10:29:40.211327853Z INFO: [0;34m[1m==> [0m[1mDeploying...[0m
+2026-06-10T10:29:51.326396978Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:52.322445953Z INFO: 
+2026-06-10T10:29:52.322477084Z INFO: > server@1.0.0 start
+2026-06-10T10:29:52.322481514Z INFO: > node server.js
+2026-06-10T10:29:52.322484614Z INFO: 
+2026-06-10T10:29:56.836175382Z INFO: 2026-06-10 10:29:56 INFO: Server started at 10000
+2026-06-10T10:29:57.563219907Z INFO: 2026-06-10 10:29:57 INFO: Incoming HEAD request to /
+2026-06-10T10:29:58.074797854Z INFO: Database connected
+2026-06-10T10:30:01.448912005Z INFO: [0;32m[1m==> [0m[1mYour service is live 🎉[0m
+2026-06-10T10:30:01.507845407Z INFO: 2026-06-10 10:30:01 INFO: Incoming GET request to /
+2026-06-10T10:30:01.692205688Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.694795044Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:30:01.697149284Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.699447001Z INFO: [0;32m[1m==> [0m[1mAvailable at your primary URL https://portfolio-backend-vwhl.onrender.com[0m
+2026-06-10T10:30:01.702115023Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.704074896Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:31:44.269492585Z INFO: 2026-06-10 10:31:44 INFO: Incoming POST request to /api/visitor/contact
+2026-06-10T10:35:06.391943962Z INFO: [0;32m[1m==> [0m[1mDetected service running on port 10000[0m
+2026-06-10T10:35:07.549275558Z INFO: [0;32m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:23:48.567766878Z INFO: errno: undefined,
+2026-06-10T10:23:48.567781448Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:23:48.567784768Z INFO: syscall: 'querySrv',
+2026-06-10T10:23:48.567788288Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:23:48.567791738Z INFO: }
+2026-06-10T10:23:48.567793669Z INFO: 
+2026-06-10T10:23:48.567796378Z INFO: Node.js v22.16.0
+2026-06-10T10:24:05.357539714Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:24:05.742383675Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:24:20.677349342Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:24:20.677353552Z INFO: errno: undefined,
+2026-06-10T10:24:20.677358142Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:24:20.677362432Z INFO: syscall: 'querySrv',
+2026-06-10T10:24:20.677367022Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:24:20.677371272Z INFO: }
+2026-06-10T10:24:20.677375143Z INFO: 
+2026-06-10T10:24:20.677379303Z INFO: Node.js v22.16.0
+2026-06-10T10:25:09.475678279Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:25:10.056471836Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:25:10.508384728Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:25:10.725942552Z INFO: 
+2026-06-10T10:25:10.72628747Z INFO: > server@1.0.0 start
+2026-06-10T10:25:10.72629569Z INFO: > node server.js
+2026-06-10T10:25:10.726298301Z INFO: 
+2026-06-10T10:25:16.271929932Z INFO: 2026-06-10 10:25:16 INFO: Server started at 10000
+2026-06-10T10:25:16.27735716Z INFO: node:internal/dns/promises:294
+2026-06-10T10:25:16.27737304Z INFO: this.reject(new DNSException(err, this.bindingName, this.hostname));
+2026-06-10T10:25:16.277378001Z INFO: ^
+2026-06-10T10:25:16.277382151Z INFO: 
+2026-06-10T10:25:16.277386461Z INFO: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.tacmizj.mongodb.net
+2026-06-10T10:25:16.277391441Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:25:16.277395611Z INFO: errno: undefined,
+2026-06-10T10:25:16.277399741Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:25:16.277403581Z INFO: syscall: 'querySrv',
+2026-06-10T10:25:16.277407972Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:25:16.277411781Z INFO: }
+2026-06-10T10:25:16.277415482Z INFO: 
+2026-06-10T10:25:16.277419362Z INFO: Node.js v22.16.0
+2026-06-10T10:25:57.989393412Z INFO: [0;31m[1m==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.[0m
+2026-06-10T10:25:58.405520335Z INFO: [0;31m[1m==> Docs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:26:48.105376611Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:26:49.234929357Z INFO: 
+2026-06-10T10:26:49.234963528Z INFO: > server@1.0.0 start
+2026-06-10T10:26:49.234968458Z INFO: > node server.js
+2026-06-10T10:26:49.234988988Z INFO: 
+2026-06-10T10:26:56.207390667Z INFO: 2026-06-10 10:26:56 INFO: Server started at 10000
+2026-06-10T10:26:57.32154756Z INFO: Database connected
+2026-06-10T10:29:01.215145378Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:02.223132922Z INFO: 
+2026-06-10T10:29:02.223151143Z INFO: > server@1.0.0 start
+2026-06-10T10:29:02.223154953Z INFO: > node server.js
+2026-06-10T10:29:02.223157893Z INFO: 
+2026-06-10T10:29:06.217669626Z INFO: Server started at 10000
+2026-06-10T10:29:07.200072456Z INFO: Database connected
+2026-06-10T10:29:16.089536006Z INFO: [34m[1m==>(B[m [1mDownloading cache...(B[m
+2026-06-10T10:29:16.124039004Z INFO: [34m[1m==>(B[m [1mCloning from https://github.com/sandeshnepal106/portfolio(B[m
+2026-06-10T10:29:22.278443999Z INFO: [34m[1m==>(B[m [1mChecking out commit 7133d69e8245d87929fdaeb78e622d8a5f90ce9a in branch main(B[m
+2026-06-10T10:29:23.411777301Z INFO: [34m[1m==>(B[m [1mDownloaded 8.2MB in 5s. Extraction took 1s.(B[m
+2026-06-10T10:29:24.201203235Z INFO: [34;1m==>[0;22m [1mUsing Node.js version 22.16.0 (default)[22m
+2026-06-10T10:29:24.201214815Z INFO: [34;1m==>[0;22m [1mDocs on specifying a Node.js version: https://render.com/docs/node-version[22m
+2026-06-10T10:29:24.201394469Z INFO: [34;1m==>[0;22m [1mInstalling Node.js version 22.16.0...[22m
+2026-06-10T10:29:25.188862546Z INFO: [34m[1m==>(B[m [1mRunning build command 'npm install'...(B[m
+2026-06-10T10:29:26.2764041Z INFO: 
+2026-06-10T10:29:26.27643377Z INFO: up to date, audited 175 packages in 1s
+2026-06-10T10:29:26.276445541Z INFO: 
+2026-06-10T10:29:26.276449701Z INFO: 23 packages are looking for funding
+2026-06-10T10:29:26.276454311Z INFO: run `npm fund` for details
+2026-06-10T10:29:26.296897109Z INFO: 
+2026-06-10T10:29:26.29693Z INFO: 12 vulnerabilities (3 moderate, 9 high)
+2026-06-10T10:29:26.29693439Z INFO: 
+2026-06-10T10:29:26.29693923Z INFO: To address issues that do not require attention, run:
+2026-06-10T10:29:26.29694324Z INFO: npm audit fix
+2026-06-10T10:29:26.29694562Z INFO: 
+2026-06-10T10:29:26.296948Z INFO: To address all issues (including breaking changes), run:
+2026-06-10T10:29:26.2969515Z INFO: npm audit fix --force
+2026-06-10T10:29:26.29695384Z INFO: 
+2026-06-10T10:29:26.296956841Z INFO: Run `npm audit` for details.
+2026-06-10T10:29:28.148909466Z INFO: [34;1m==>[0;22m [1mUploading build...[22m
+2026-06-10T10:29:31.351720401Z INFO: [34;1m==>[0;22m [1mUploaded in 1.8s. Compression took 1.4s[22m
+2026-06-10T10:29:31.367631507Z INFO: [32;1m==>[0;22m [1mBuild successful 🎉[22m
+2026-06-10T10:29:40.211327853Z INFO: [0;34m[1m==> [0m[1mDeploying...[0m
+2026-06-10T10:29:51.326396978Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:52.322445953Z INFO: 
+2026-06-10T10:29:52.322477084Z INFO: > server@1.0.0 start
+2026-06-10T10:29:52.322481514Z INFO: > node server.js
+2026-06-10T10:29:52.322484614Z INFO: 
+2026-06-10T10:29:56.836175382Z INFO: 2026-06-10 10:29:56 INFO: Server started at 10000
+2026-06-10T10:29:57.563219907Z INFO: 2026-06-10 10:29:57 INFO: Incoming HEAD request to /
+2026-06-10T10:29:58.074797854Z INFO: Database connected
+2026-06-10T10:30:01.448912005Z INFO: [0;32m[1m==> [0m[1mYour service is live 🎉[0m
+2026-06-10T10:30:01.507845407Z INFO: 2026-06-10 10:30:01 INFO: Incoming GET request to /
+2026-06-10T10:30:01.692205688Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.694795044Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:30:01.697149284Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.699447001Z INFO: [0;32m[1m==> [0m[1mAvailable at your primary URL https://portfolio-backend-vwhl.onrender.com[0m
+2026-06-10T10:30:01.702115023Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.704074896Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:31:44.269492585Z INFO: 2026-06-10 10:31:44 INFO: Incoming POST request to /api/visitor/contact
+2026-06-10T10:35:06.391943962Z INFO: [0;32m[1m==> [0m[1mDetected service running on port 10000[0m
+2026-06-10T10:35:07.549275558Z INFO: [0;32m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:23:48.567766878Z INFO: errno: undefined,
+2026-06-10T10:23:48.567781448Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:23:48.567784768Z INFO: syscall: 'querySrv',
+2026-06-10T10:23:48.567788288Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:23:48.567791738Z INFO: }
+2026-06-10T10:23:48.567793669Z INFO: 
+2026-06-10T10:23:48.567796378Z INFO: Node.js v22.16.0
+2026-06-10T10:24:05.357539714Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:24:05.742383675Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:24:20.677349342Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:24:20.677353552Z INFO: errno: undefined,
+2026-06-10T10:24:20.677358142Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:24:20.677362432Z INFO: syscall: 'querySrv',
+2026-06-10T10:24:20.677367022Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:24:20.677371272Z INFO: }
+2026-06-10T10:24:20.677375143Z INFO: 
+2026-06-10T10:24:20.677379303Z INFO: Node.js v22.16.0
+2026-06-10T10:25:09.475678279Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:25:10.056471836Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:25:10.508384728Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:25:10.725942552Z INFO: 
+2026-06-10T10:25:10.72628747Z INFO: > server@1.0.0 start
+2026-06-10T10:25:10.72629569Z INFO: > node server.js
+2026-06-10T10:25:10.726298301Z INFO: 
+2026-06-10T10:25:16.271929932Z INFO: 2026-06-10 10:25:16 INFO: Server started at 10000
+2026-06-10T10:25:16.27735716Z INFO: node:internal/dns/promises:294
+2026-06-10T10:25:16.27737304Z INFO: this.reject(new DNSException(err, this.bindingName, this.hostname));
+2026-06-10T10:25:16.277378001Z INFO: ^
+2026-06-10T10:25:16.277382151Z INFO: 
+2026-06-10T10:25:16.277386461Z INFO: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.tacmizj.mongodb.net
+2026-06-10T10:25:16.277391441Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:25:16.277395611Z INFO: errno: undefined,
+2026-06-10T10:25:16.277399741Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:25:16.277403581Z INFO: syscall: 'querySrv',
+2026-06-10T10:25:16.277407972Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:25:16.277411781Z INFO: }
+2026-06-10T10:25:16.277415482Z INFO: 
+2026-06-10T10:25:16.277419362Z INFO: Node.js v22.16.0
+2026-06-10T10:25:57.989393412Z INFO: [0;31m[1m==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.[0m
+2026-06-10T10:25:58.405520335Z INFO: [0;31m[1m==> Docs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:26:48.105376611Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:26:49.234929357Z INFO: 
+2026-06-10T10:26:49.234963528Z INFO: > server@1.0.0 start
+2026-06-10T10:26:49.234968458Z INFO: > node server.js
+2026-06-10T10:26:49.234988988Z INFO: 
+2026-06-10T10:26:56.207390667Z INFO: 2026-06-10 10:26:56 INFO: Server started at 10000
+2026-06-10T10:26:57.32154756Z INFO: Database connected
+2026-06-10T10:29:01.215145378Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:02.223132922Z INFO: 
+2026-06-10T10:29:02.223151143Z INFO: > server@1.0.0 start
+2026-06-10T10:29:02.223154953Z INFO: > node server.js
+2026-06-10T10:29:02.223157893Z INFO: 
+2026-06-10T10:29:06.217669626Z INFO: Server started at 10000
+2026-06-10T10:29:07.200072456Z INFO: Database connected
+2026-06-10T10:29:16.089536006Z INFO: [34m[1m==>(B[m [1mDownloading cache...(B[m
+2026-06-10T10:29:16.124039004Z INFO: [34m[1m==>(B[m [1mCloning from https://github.com/sandeshnepal106/portfolio(B[m
+2026-06-10T10:29:22.278443999Z INFO: [34m[1m==>(B[m [1mChecking out commit 7133d69e8245d87929fdaeb78e622d8a5f90ce9a in branch main(B[m
+2026-06-10T10:29:23.411777301Z INFO: [34m[1m==>(B[m [1mDownloaded 8.2MB in 5s. Extraction took 1s.(B[m
+2026-06-10T10:29:24.201203235Z INFO: [34;1m==>[0;22m [1mUsing Node.js version 22.16.0 (default)[22m
+2026-06-10T10:29:24.201214815Z INFO: [34;1m==>[0;22m [1mDocs on specifying a Node.js version: https://render.com/docs/node-version[22m
+2026-06-10T10:29:24.201394469Z INFO: [34;1m==>[0;22m [1mInstalling Node.js version 22.16.0...[22m
+2026-06-10T10:29:25.188862546Z INFO: [34m[1m==>(B[m [1mRunning build command 'npm install'...(B[m
+2026-06-10T10:29:26.2764041Z INFO: 
+2026-06-10T10:29:26.27643377Z INFO: up to date, audited 175 packages in 1s
+2026-06-10T10:29:26.276445541Z INFO: 
+2026-06-10T10:29:26.276449701Z INFO: 23 packages are looking for funding
+2026-06-10T10:29:26.276454311Z INFO: run `npm fund` for details
+2026-06-10T10:29:26.296897109Z INFO: 
+2026-06-10T10:29:26.29693Z INFO: 12 vulnerabilities (3 moderate, 9 high)
+2026-06-10T10:29:26.29693439Z INFO: 
+2026-06-10T10:29:26.29693923Z INFO: To address issues that do not require attention, run:
+2026-06-10T10:29:26.29694324Z INFO: npm audit fix
+2026-06-10T10:29:26.29694562Z INFO: 
+2026-06-10T10:29:26.296948Z INFO: To address all issues (including breaking changes), run:
+2026-06-10T10:29:26.2969515Z INFO: npm audit fix --force
+2026-06-10T10:29:26.29695384Z INFO: 
+2026-06-10T10:29:26.296956841Z INFO: Run `npm audit` for details.
+2026-06-10T10:29:28.148909466Z INFO: [34;1m==>[0;22m [1mUploading build...[22m
+2026-06-10T10:29:31.351720401Z INFO: [34;1m==>[0;22m [1mUploaded in 1.8s. Compression took 1.4s[22m
+2026-06-10T10:29:31.367631507Z INFO: [32;1m==>[0;22m [1mBuild successful 🎉[22m
+2026-06-10T10:29:40.211327853Z INFO: [0;34m[1m==> [0m[1mDeploying...[0m
+2026-06-10T10:29:51.326396978Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:52.322445953Z INFO: 
+2026-06-10T10:29:52.322477084Z INFO: > server@1.0.0 start
+2026-06-10T10:29:52.322481514Z INFO: > node server.js
+2026-06-10T10:29:52.322484614Z INFO: 
+2026-06-10T10:29:56.836175382Z INFO: 2026-06-10 10:29:56 INFO: Server started at 10000
+2026-06-10T10:29:57.563219907Z INFO: 2026-06-10 10:29:57 INFO: Incoming HEAD request to /
+2026-06-10T10:29:58.074797854Z INFO: Database connected
+2026-06-10T10:30:01.448912005Z INFO: [0;32m[1m==> [0m[1mYour service is live 🎉[0m
+2026-06-10T10:30:01.507845407Z INFO: 2026-06-10 10:30:01 INFO: Incoming GET request to /
+2026-06-10T10:30:01.692205688Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.694795044Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:30:01.697149284Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.699447001Z INFO: [0;32m[1m==> [0m[1mAvailable at your primary URL https://portfolio-backend-vwhl.onrender.com[0m
+2026-06-10T10:30:01.702115023Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.704074896Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:31:44.269492585Z INFO: 2026-06-10 10:31:44 INFO: Incoming POST request to /api/visitor/contact
+2026-06-10T10:35:06.391943962Z INFO: [0;32m[1m==> [0m[1mDetected service running on port 10000[0m
+2026-06-10T10:35:07.549275558Z INFO: [0;32m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:23:48.567766878Z INFO: errno: undefined,
+2026-06-10T10:23:48.567781448Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:23:48.567784768Z INFO: syscall: 'querySrv',
+2026-06-10T10:23:48.567788288Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:23:48.567791738Z INFO: }
+2026-06-10T10:23:48.567793669Z INFO: 
+2026-06-10T10:23:48.567796378Z INFO: Node.js v22.16.0
+2026-06-10T10:24:05.357539714Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:24:05.742383675Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:24:20.677349342Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:24:20.677353552Z INFO: errno: undefined,
+2026-06-10T10:24:20.677358142Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:24:20.677362432Z INFO: syscall: 'querySrv',
+2026-06-10T10:24:20.677367022Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:24:20.677371272Z INFO: }
+2026-06-10T10:24:20.677375143Z INFO: 
+2026-06-10T10:24:20.677379303Z INFO: Node.js v22.16.0
+2026-06-10T10:25:09.475678279Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:25:10.056471836Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:25:10.508384728Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:25:10.725942552Z INFO: 
+2026-06-10T10:25:10.72628747Z INFO: > server@1.0.0 start
+2026-06-10T10:25:10.72629569Z INFO: > node server.js
+2026-06-10T10:25:10.726298301Z INFO: 
+2026-06-10T10:25:16.271929932Z INFO: 2026-06-10 10:25:16 INFO: Server started at 10000
+2026-06-10T10:25:16.27735716Z INFO: node:internal/dns/promises:294
+2026-06-10T10:25:16.27737304Z INFO: this.reject(new DNSException(err, this.bindingName, this.hostname));
+2026-06-10T10:25:16.277378001Z INFO: ^
+2026-06-10T10:25:16.277382151Z INFO: 
+2026-06-10T10:25:16.277386461Z INFO: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.tacmizj.mongodb.net
+2026-06-10T10:25:16.277391441Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:25:16.277395611Z INFO: errno: undefined,
+2026-06-10T10:25:16.277399741Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:25:16.277403581Z INFO: syscall: 'querySrv',
+2026-06-10T10:25:16.277407972Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:25:16.277411781Z INFO: }
+2026-06-10T10:25:16.277415482Z INFO: 
+2026-06-10T10:25:16.277419362Z INFO: Node.js v22.16.0
+2026-06-10T10:25:57.989393412Z INFO: [0;31m[1m==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.[0m
+2026-06-10T10:25:58.405520335Z INFO: [0;31m[1m==> Docs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:26:48.105376611Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:26:49.234929357Z INFO: 
+2026-06-10T10:26:49.234963528Z INFO: > server@1.0.0 start
+2026-06-10T10:26:49.234968458Z INFO: > node server.js
+2026-06-10T10:26:49.234988988Z INFO: 
+2026-06-10T10:26:56.207390667Z INFO: 2026-06-10 10:26:56 INFO: Server started at 10000
+2026-06-10T10:26:57.32154756Z INFO: Database connected
+2026-06-10T10:29:01.215145378Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:02.223132922Z INFO: 
+2026-06-10T10:29:02.223151143Z INFO: > server@1.0.0 start
+2026-06-10T10:29:02.223154953Z INFO: > node server.js
+2026-06-10T10:29:02.223157893Z INFO: 
+2026-06-10T10:29:06.217669626Z INFO: Server started at 10000
+2026-06-10T10:29:07.200072456Z INFO: Database connected
+2026-06-10T10:29:16.089536006Z INFO: [34m[1m==>(B[m [1mDownloading cache...(B[m
+2026-06-10T10:29:16.124039004Z INFO: [34m[1m==>(B[m [1mCloning from https://github.com/sandeshnepal106/portfolio(B[m
+2026-06-10T10:29:22.278443999Z INFO: [34m[1m==>(B[m [1mChecking out commit 7133d69e8245d87929fdaeb78e622d8a5f90ce9a in branch main(B[m
+2026-06-10T10:29:23.411777301Z INFO: [34m[1m==>(B[m [1mDownloaded 8.2MB in 5s. Extraction took 1s.(B[m
+2026-06-10T10:29:24.201203235Z INFO: [34;1m==>[0;22m [1mUsing Node.js version 22.16.0 (default)[22m
+2026-06-10T10:29:24.201214815Z INFO: [34;1m==>[0;22m [1mDocs on specifying a Node.js version: https://render.com/docs/node-version[22m
+2026-06-10T10:29:24.201394469Z INFO: [34;1m==>[0;22m [1mInstalling Node.js version 22.16.0...[22m
+2026-06-10T10:29:25.188862546Z INFO: [34m[1m==>(B[m [1mRunning build command 'npm install'...(B[m
+2026-06-10T10:29:26.2764041Z INFO: 
+2026-06-10T10:29:26.27643377Z INFO: up to date, audited 175 packages in 1s
+2026-06-10T10:29:26.276445541Z INFO: 
+2026-06-10T10:29:26.276449701Z INFO: 23 packages are looking for funding
+2026-06-10T10:29:26.276454311Z INFO: run `npm fund` for details
+2026-06-10T10:29:26.296897109Z INFO: 
+2026-06-10T10:29:26.29693Z INFO: 12 vulnerabilities (3 moderate, 9 high)
+2026-06-10T10:29:26.29693439Z INFO: 
+2026-06-10T10:29:26.29693923Z INFO: To address issues that do not require attention, run:
+2026-06-10T10:29:26.29694324Z INFO: npm audit fix
+2026-06-10T10:29:26.29694562Z INFO: 
+2026-06-10T10:29:26.296948Z INFO: To address all issues (including breaking changes), run:
+2026-06-10T10:29:26.2969515Z INFO: npm audit fix --force
+2026-06-10T10:29:26.29695384Z INFO: 
+2026-06-10T10:29:26.296956841Z INFO: Run `npm audit` for details.
+2026-06-10T10:29:28.148909466Z INFO: [34;1m==>[0;22m [1mUploading build...[22m
+2026-06-10T10:29:31.351720401Z INFO: [34;1m==>[0;22m [1mUploaded in 1.8s. Compression took 1.4s[22m
+2026-06-10T10:29:31.367631507Z INFO: [32;1m==>[0;22m [1mBuild successful 🎉[22m
+2026-06-10T10:29:40.211327853Z INFO: [0;34m[1m==> [0m[1mDeploying...[0m
+2026-06-10T10:29:51.326396978Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:52.322445953Z INFO: 
+2026-06-10T10:29:52.322477084Z INFO: > server@1.0.0 start
+2026-06-10T10:29:52.322481514Z INFO: > node server.js
+2026-06-10T10:29:52.322484614Z INFO: 
+2026-06-10T10:29:56.836175382Z INFO: 2026-06-10 10:29:56 INFO: Server started at 10000
+2026-06-10T10:29:57.563219907Z INFO: 2026-06-10 10:29:57 INFO: Incoming HEAD request to /
+2026-06-10T10:29:58.074797854Z INFO: Database connected
+2026-06-10T10:30:01.448912005Z INFO: [0;32m[1m==> [0m[1mYour service is live 🎉[0m
+2026-06-10T10:30:01.507845407Z INFO: 2026-06-10 10:30:01 INFO: Incoming GET request to /
+2026-06-10T10:30:01.692205688Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.694795044Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:30:01.697149284Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.699447001Z INFO: [0;32m[1m==> [0m[1mAvailable at your primary URL https://portfolio-backend-vwhl.onrender.com[0m
+2026-06-10T10:30:01.702115023Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.704074896Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:31:44.269492585Z INFO: 2026-06-10 10:31:44 INFO: Incoming POST request to /api/visitor/contact
+2026-06-10T10:35:06.391943962Z INFO: [0;32m[1m==> [0m[1mDetected service running on port 10000[0m
+2026-06-10T10:35:07.549275558Z INFO: [0;32m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:23:48.567766878Z INFO: errno: undefined,
+2026-06-10T10:23:48.567781448Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:23:48.567784768Z INFO: syscall: 'querySrv',
+2026-06-10T10:23:48.567788288Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:23:48.567791738Z INFO: }
+2026-06-10T10:23:48.567793669Z INFO: 
+2026-06-10T10:23:48.567796378Z INFO: Node.js v22.16.0
+2026-06-10T10:24:05.357539714Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:24:05.742383675Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:24:20.677349342Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:24:20.677353552Z INFO: errno: undefined,
+2026-06-10T10:24:20.677358142Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:24:20.677362432Z INFO: syscall: 'querySrv',
+2026-06-10T10:24:20.677367022Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:24:20.677371272Z INFO: }
+2026-06-10T10:24:20.677375143Z INFO: 
+2026-06-10T10:24:20.677379303Z INFO: Node.js v22.16.0
+2026-06-10T10:25:09.475678279Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:25:10.056471836Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:25:10.508384728Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:25:10.725942552Z INFO: 
+2026-06-10T10:25:10.72628747Z INFO: > server@1.0.0 start
+2026-06-10T10:25:10.72629569Z INFO: > node server.js
+2026-06-10T10:25:10.726298301Z INFO: 
+2026-06-10T10:25:16.271929932Z INFO: 2026-06-10 10:25:16 INFO: Server started at 10000
+2026-06-10T10:25:16.27735716Z INFO: node:internal/dns/promises:294
+2026-06-10T10:25:16.27737304Z INFO: this.reject(new DNSException(err, this.bindingName, this.hostname));
+2026-06-10T10:25:16.277378001Z INFO: ^
+2026-06-10T10:25:16.277382151Z INFO: 
+2026-06-10T10:25:16.277386461Z INFO: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.tacmizj.mongodb.net
+2026-06-10T10:25:16.277391441Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:25:16.277395611Z INFO: errno: undefined,
+2026-06-10T10:25:16.277399741Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:25:16.277403581Z INFO: syscall: 'querySrv',
+2026-06-10T10:25:16.277407972Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:25:16.277411781Z INFO: }
+2026-06-10T10:25:16.277415482Z INFO: 
+2026-06-10T10:25:16.277419362Z INFO: Node.js v22.16.0
+2026-06-10T10:25:57.989393412Z INFO: [0;31m[1m==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.[0m
+2026-06-10T10:25:58.405520335Z INFO: [0;31m[1m==> Docs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:26:48.105376611Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:26:49.234929357Z INFO: 
+2026-06-10T10:26:49.234963528Z INFO: > server@1.0.0 start
+2026-06-10T10:26:49.234968458Z INFO: > node server.js
+2026-06-10T10:26:49.234988988Z INFO: 
+2026-06-10T10:26:56.207390667Z INFO: 2026-06-10 10:26:56 INFO: Server started at 10000
+2026-06-10T10:26:57.32154756Z INFO: Database connected
+2026-06-10T10:29:01.215145378Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:02.223132922Z INFO: 
+2026-06-10T10:29:02.223151143Z INFO: > server@1.0.0 start
+2026-06-10T10:29:02.223154953Z INFO: > node server.js
+2026-06-10T10:29:02.223157893Z INFO: 
+2026-06-10T10:29:06.217669626Z INFO: Server started at 10000
+2026-06-10T10:29:07.200072456Z INFO: Database connected
+2026-06-10T10:29:16.089536006Z INFO: [34m[1m==>(B[m [1mDownloading cache...(B[m
+2026-06-10T10:29:16.124039004Z INFO: [34m[1m==>(B[m [1mCloning from https://github.com/sandeshnepal106/portfolio(B[m
+2026-06-10T10:29:22.278443999Z INFO: [34m[1m==>(B[m [1mChecking out commit 7133d69e8245d87929fdaeb78e622d8a5f90ce9a in branch main(B[m
+2026-06-10T10:29:23.411777301Z INFO: [34m[1m==>(B[m [1mDownloaded 8.2MB in 5s. Extraction took 1s.(B[m
+2026-06-10T10:29:24.201203235Z INFO: [34;1m==>[0;22m [1mUsing Node.js version 22.16.0 (default)[22m
+2026-06-10T10:29:24.201214815Z INFO: [34;1m==>[0;22m [1mDocs on specifying a Node.js version: https://render.com/docs/node-version[22m
+2026-06-10T10:29:24.201394469Z INFO: [34;1m==>[0;22m [1mInstalling Node.js version 22.16.0...[22m
+2026-06-10T10:29:25.188862546Z INFO: [34m[1m==>(B[m [1mRunning build command 'npm install'...(B[m
+2026-06-10T10:29:26.2764041Z INFO: 
+2026-06-10T10:29:26.27643377Z INFO: up to date, audited 175 packages in 1s
+2026-06-10T10:29:26.276445541Z INFO: 
+2026-06-10T10:29:26.276449701Z INFO: 23 packages are looking for funding
+2026-06-10T10:29:26.276454311Z INFO: run `npm fund` for details
+2026-06-10T10:29:26.296897109Z INFO: 
+2026-06-10T10:29:26.29693Z INFO: 12 vulnerabilities (3 moderate, 9 high)
+2026-06-10T10:29:26.29693439Z INFO: 
+2026-06-10T10:29:26.29693923Z INFO: To address issues that do not require attention, run:
+2026-06-10T10:29:26.29694324Z INFO: npm audit fix
+2026-06-10T10:29:26.29694562Z INFO: 
+2026-06-10T10:29:26.296948Z INFO: To address all issues (including breaking changes), run:
+2026-06-10T10:29:26.2969515Z INFO: npm audit fix --force
+2026-06-10T10:29:26.29695384Z INFO: 
+2026-06-10T10:29:26.296956841Z INFO: Run `npm audit` for details.
+2026-06-10T10:29:28.148909466Z INFO: [34;1m==>[0;22m [1mUploading build...[22m
+2026-06-10T10:29:31.351720401Z INFO: [34;1m==>[0;22m [1mUploaded in 1.8s. Compression took 1.4s[22m
+2026-06-10T10:29:31.367631507Z INFO: [32;1m==>[0;22m [1mBuild successful 🎉[22m
+2026-06-10T10:29:40.211327853Z INFO: [0;34m[1m==> [0m[1mDeploying...[0m
+2026-06-10T10:29:51.326396978Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:52.322445953Z INFO: 
+2026-06-10T10:29:52.322477084Z INFO: > server@1.0.0 start
+2026-06-10T10:29:52.322481514Z INFO: > node server.js
+2026-06-10T10:29:52.322484614Z INFO: 
+2026-06-10T10:29:56.836175382Z INFO: 2026-06-10 10:29:56 INFO: Server started at 10000
+2026-06-10T10:29:57.563219907Z INFO: 2026-06-10 10:29:57 INFO: Incoming HEAD request to /
+2026-06-10T10:29:58.074797854Z INFO: Database connected
+2026-06-10T10:30:01.448912005Z INFO: [0;32m[1m==> [0m[1mYour service is live 🎉[0m
+2026-06-10T10:30:01.507845407Z INFO: 2026-06-10 10:30:01 INFO: Incoming GET request to /
+2026-06-10T10:30:01.692205688Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.694795044Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:30:01.697149284Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.699447001Z INFO: [0;32m[1m==> [0m[1mAvailable at your primary URL https://portfolio-backend-vwhl.onrender.com[0m
+2026-06-10T10:30:01.702115023Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.704074896Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:31:44.269492585Z INFO: 2026-06-10 10:31:44 INFO: Incoming POST request to /api/visitor/contact
+2026-06-10T10:35:06.391943962Z INFO: [0;32m[1m==> [0m[1mDetected service running on port 10000[0m
+2026-06-10T10:35:07.549275558Z INFO: [0;32m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:23:48.567766878Z INFO: errno: undefined,
+2026-06-10T10:23:48.567781448Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:23:48.567784768Z INFO: syscall: 'querySrv',
+2026-06-10T10:23:48.567788288Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:23:48.567791738Z INFO: }
+2026-06-10T10:23:48.567793669Z INFO: 
+2026-06-10T10:23:48.567796378Z INFO: Node.js v22.16.0
+2026-06-10T10:24:05.357539714Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:24:05.742383675Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:24:20.677349342Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:24:20.677353552Z INFO: errno: undefined,
+2026-06-10T10:24:20.677358142Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:24:20.677362432Z INFO: syscall: 'querySrv',
+2026-06-10T10:24:20.677367022Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:24:20.677371272Z INFO: }
+2026-06-10T10:24:20.677375143Z INFO: 
+2026-06-10T10:24:20.677379303Z INFO: Node.js v22.16.0
+2026-06-10T10:25:09.475678279Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:25:10.056471836Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:25:10.508384728Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:25:10.725942552Z INFO: 
+2026-06-10T10:25:10.72628747Z INFO: > server@1.0.0 start
+2026-06-10T10:25:10.72629569Z INFO: > node server.js
+2026-06-10T10:25:10.726298301Z INFO: 
+2026-06-10T10:25:16.271929932Z INFO: 2026-06-10 10:25:16 INFO: Server started at 10000
+2026-06-10T10:25:16.27735716Z INFO: node:internal/dns/promises:294
+2026-06-10T10:25:16.27737304Z INFO: this.reject(new DNSException(err, this.bindingName, this.hostname));
+2026-06-10T10:25:16.277378001Z INFO: ^
+2026-06-10T10:25:16.277382151Z INFO: 
+2026-06-10T10:25:16.277386461Z INFO: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.tacmizj.mongodb.net
+2026-06-10T10:25:16.277391441Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:25:16.277395611Z INFO: errno: undefined,
+2026-06-10T10:25:16.277399741Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:25:16.277403581Z INFO: syscall: 'querySrv',
+2026-06-10T10:25:16.277407972Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:25:16.277411781Z INFO: }
+2026-06-10T10:25:16.277415482Z INFO: 
+2026-06-10T10:25:16.277419362Z INFO: Node.js v22.16.0
+2026-06-10T10:25:57.989393412Z INFO: [0;31m[1m==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.[0m
+2026-06-10T10:25:58.405520335Z INFO: [0;31m[1m==> Docs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:26:48.105376611Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:26:49.234929357Z INFO: 
+2026-06-10T10:26:49.234963528Z INFO: > server@1.0.0 start
+2026-06-10T10:26:49.234968458Z INFO: > node server.js
+2026-06-10T10:26:49.234988988Z INFO: 
+2026-06-10T10:26:56.207390667Z INFO: 2026-06-10 10:26:56 INFO: Server started at 10000
+2026-06-10T10:26:57.32154756Z INFO: Database connected
+2026-06-10T10:29:01.215145378Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:02.223132922Z INFO: 
+2026-06-10T10:29:02.223151143Z INFO: > server@1.0.0 start
+2026-06-10T10:29:02.223154953Z INFO: > node server.js
+2026-06-10T10:29:02.223157893Z INFO: 
+2026-06-10T10:29:06.217669626Z INFO: Server started at 10000
+2026-06-10T10:29:07.200072456Z INFO: Database connected
+2026-06-10T10:29:16.089536006Z INFO: [34m[1m==>(B[m [1mDownloading cache...(B[m
+2026-06-10T10:29:16.124039004Z INFO: [34m[1m==>(B[m [1mCloning from https://github.com/sandeshnepal106/portfolio(B[m
+2026-06-10T10:29:22.278443999Z INFO: [34m[1m==>(B[m [1mChecking out commit 7133d69e8245d87929fdaeb78e622d8a5f90ce9a in branch main(B[m
+2026-06-10T10:29:23.411777301Z INFO: [34m[1m==>(B[m [1mDownloaded 8.2MB in 5s. Extraction took 1s.(B[m
+2026-06-10T10:29:24.201203235Z INFO: [34;1m==>[0;22m [1mUsing Node.js version 22.16.0 (default)[22m
+2026-06-10T10:29:24.201214815Z INFO: [34;1m==>[0;22m [1mDocs on specifying a Node.js version: https://render.com/docs/node-version[22m
+2026-06-10T10:29:24.201394469Z INFO: [34;1m==>[0;22m [1mInstalling Node.js version 22.16.0...[22m
+2026-06-10T10:29:25.188862546Z INFO: [34m[1m==>(B[m [1mRunning build command 'npm install'...(B[m
+2026-06-10T10:29:26.2764041Z INFO: 
+2026-06-10T10:29:26.27643377Z INFO: up to date, audited 175 packages in 1s
+2026-06-10T10:29:26.276445541Z INFO: 
+2026-06-10T10:29:26.276449701Z INFO: 23 packages are looking for funding
+2026-06-10T10:29:26.276454311Z INFO: run `npm fund` for details
+2026-06-10T10:29:26.296897109Z INFO: 
+2026-06-10T10:29:26.29693Z INFO: 12 vulnerabilities (3 moderate, 9 high)
+2026-06-10T10:29:26.29693439Z INFO: 
+2026-06-10T10:29:26.29693923Z INFO: To address issues that do not require attention, run:
+2026-06-10T10:29:26.29694324Z INFO: npm audit fix
+2026-06-10T10:29:26.29694562Z INFO: 
+2026-06-10T10:29:26.296948Z INFO: To address all issues (including breaking changes), run:
+2026-06-10T10:29:26.2969515Z INFO: npm audit fix --force
+2026-06-10T10:29:26.29695384Z INFO: 
+2026-06-10T10:29:26.296956841Z INFO: Run `npm audit` for details.
+2026-06-10T10:29:28.148909466Z INFO: [34;1m==>[0;22m [1mUploading build...[22m
+2026-06-10T10:29:31.351720401Z INFO: [34;1m==>[0;22m [1mUploaded in 1.8s. Compression took 1.4s[22m
+2026-06-10T10:29:31.367631507Z INFO: [32;1m==>[0;22m [1mBuild successful 🎉[22m
+2026-06-10T10:29:40.211327853Z INFO: [0;34m[1m==> [0m[1mDeploying...[0m
+2026-06-10T10:29:51.326396978Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:52.322445953Z INFO: 
+2026-06-10T10:29:52.322477084Z INFO: > server@1.0.0 start
+2026-06-10T10:29:52.322481514Z INFO: > node server.js
+2026-06-10T10:29:52.322484614Z INFO: 
+2026-06-10T10:29:56.836175382Z INFO: 2026-06-10 10:29:56 INFO: Server started at 10000
+2026-06-10T10:29:57.563219907Z INFO: 2026-06-10 10:29:57 INFO: Incoming HEAD request to /
+2026-06-10T10:29:58.074797854Z INFO: Database connected
+2026-06-10T10:30:01.448912005Z INFO: [0;32m[1m==> [0m[1mYour service is live 🎉[0m
+2026-06-10T10:30:01.507845407Z INFO: 2026-06-10 10:30:01 INFO: Incoming GET request to /
+2026-06-10T10:30:01.692205688Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.694795044Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:30:01.697149284Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.699447001Z INFO: [0;32m[1m==> [0m[1mAvailable at your primary URL https://portfolio-backend-vwhl.onrender.com[0m
+2026-06-10T10:30:01.702115023Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.704074896Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:31:44.269492585Z INFO: 2026-06-10 10:31:44 INFO: Incoming POST request to /api/visitor/contact
+2026-06-10T10:35:06.391943962Z INFO: [0;32m[1m==> [0m[1mDetected service running on port 10000[0m
+2026-06-10T10:35:07.549275558Z INFO: [0;32m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:23:48.567766878Z INFO: errno: undefined,
+2026-06-10T10:23:48.567781448Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:23:48.567784768Z INFO: syscall: 'querySrv',
+2026-06-10T10:23:48.567788288Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:23:48.567791738Z INFO: }
+2026-06-10T10:23:48.567793669Z INFO: 
+2026-06-10T10:23:48.567796378Z INFO: Node.js v22.16.0
+2026-06-10T10:24:05.357539714Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:24:05.742383675Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:24:20.677349342Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:24:20.677353552Z INFO: errno: undefined,
+2026-06-10T10:24:20.677358142Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:24:20.677362432Z INFO: syscall: 'querySrv',
+2026-06-10T10:24:20.677367022Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:24:20.677371272Z INFO: }
+2026-06-10T10:24:20.677375143Z INFO: 
+2026-06-10T10:24:20.677379303Z INFO: Node.js v22.16.0
+2026-06-10T10:25:09.475678279Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:25:10.056471836Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:25:10.508384728Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:25:10.725942552Z INFO: 
+2026-06-10T10:25:10.72628747Z INFO: > server@1.0.0 start
+2026-06-10T10:25:10.72629569Z INFO: > node server.js
+2026-06-10T10:25:10.726298301Z INFO: 
+2026-06-10T10:25:16.271929932Z INFO: 2026-06-10 10:25:16 INFO: Server started at 10000
+2026-06-10T10:25:16.27735716Z INFO: node:internal/dns/promises:294
+2026-06-10T10:25:16.27737304Z INFO: this.reject(new DNSException(err, this.bindingName, this.hostname));
+2026-06-10T10:25:16.277378001Z INFO: ^
+2026-06-10T10:25:16.277382151Z INFO: 
+2026-06-10T10:25:16.277386461Z INFO: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.tacmizj.mongodb.net
+2026-06-10T10:25:16.277391441Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:25:16.277395611Z INFO: errno: undefined,
+2026-06-10T10:25:16.277399741Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:25:16.277403581Z INFO: syscall: 'querySrv',
+2026-06-10T10:25:16.277407972Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:25:16.277411781Z INFO: }
+2026-06-10T10:25:16.277415482Z INFO: 
+2026-06-10T10:25:16.277419362Z INFO: Node.js v22.16.0
+2026-06-10T10:25:57.989393412Z INFO: [0;31m[1m==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.[0m
+2026-06-10T10:25:58.405520335Z INFO: [0;31m[1m==> Docs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:26:48.105376611Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:26:49.234929357Z INFO: 
+2026-06-10T10:26:49.234963528Z INFO: > server@1.0.0 start
+2026-06-10T10:26:49.234968458Z INFO: > node server.js
+2026-06-10T10:26:49.234988988Z INFO: 
+2026-06-10T10:26:56.207390667Z INFO: 2026-06-10 10:26:56 INFO: Server started at 10000
+2026-06-10T10:26:57.32154756Z INFO: Database connected
+2026-06-10T10:29:01.215145378Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:02.223132922Z INFO: 
+2026-06-10T10:29:02.223151143Z INFO: > server@1.0.0 start
+2026-06-10T10:29:02.223154953Z INFO: > node server.js
+2026-06-10T10:29:02.223157893Z INFO: 
+2026-06-10T10:29:06.217669626Z INFO: Server started at 10000
+2026-06-10T10:29:07.200072456Z INFO: Database connected
+2026-06-10T10:29:16.089536006Z INFO: [34m[1m==>(B[m [1mDownloading cache...(B[m
+2026-06-10T10:29:16.124039004Z INFO: [34m[1m==>(B[m [1mCloning from https://github.com/sandeshnepal106/portfolio(B[m
+2026-06-10T10:29:22.278443999Z INFO: [34m[1m==>(B[m [1mChecking out commit 7133d69e8245d87929fdaeb78e622d8a5f90ce9a in branch main(B[m
+2026-06-10T10:29:23.411777301Z INFO: [34m[1m==>(B[m [1mDownloaded 8.2MB in 5s. Extraction took 1s.(B[m
+2026-06-10T10:29:24.201203235Z INFO: [34;1m==>[0;22m [1mUsing Node.js version 22.16.0 (default)[22m
+2026-06-10T10:29:24.201214815Z INFO: [34;1m==>[0;22m [1mDocs on specifying a Node.js version: https://render.com/docs/node-version[22m
+2026-06-10T10:29:24.201394469Z INFO: [34;1m==>[0;22m [1mInstalling Node.js version 22.16.0...[22m
+2026-06-10T10:29:25.188862546Z INFO: [34m[1m==>(B[m [1mRunning build command 'npm install'...(B[m
+2026-06-10T10:29:26.2764041Z INFO: 
+2026-06-10T10:29:26.27643377Z INFO: up to date, audited 175 packages in 1s
+2026-06-10T10:29:26.276445541Z INFO: 
+2026-06-10T10:29:26.276449701Z INFO: 23 packages are looking for funding
+2026-06-10T10:29:26.276454311Z INFO: run `npm fund` for details
+2026-06-10T10:29:26.296897109Z INFO: 
+2026-06-10T10:29:26.29693Z INFO: 12 vulnerabilities (3 moderate, 9 high)
+2026-06-10T10:29:26.29693439Z INFO: 
+2026-06-10T10:29:26.29693923Z INFO: To address issues that do not require attention, run:
+2026-06-10T10:29:26.29694324Z INFO: npm audit fix
+2026-06-10T10:29:26.29694562Z INFO: 
+2026-06-10T10:29:26.296948Z INFO: To address all issues (including breaking changes), run:
+2026-06-10T10:29:26.2969515Z INFO: npm audit fix --force
+2026-06-10T10:29:26.29695384Z INFO: 
+2026-06-10T10:29:26.296956841Z INFO: Run `npm audit` for details.
+2026-06-10T10:29:28.148909466Z INFO: [34;1m==>[0;22m [1mUploading build...[22m
+2026-06-10T10:29:31.351720401Z INFO: [34;1m==>[0;22m [1mUploaded in 1.8s. Compression took 1.4s[22m
+2026-06-10T10:29:31.367631507Z INFO: [32;1m==>[0;22m [1mBuild successful 🎉[22m
+2026-06-10T10:29:40.211327853Z INFO: [0;34m[1m==> [0m[1mDeploying...[0m
+2026-06-10T10:29:51.326396978Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:52.322445953Z INFO: 
+2026-06-10T10:29:52.322477084Z INFO: > server@1.0.0 start
+2026-06-10T10:29:52.322481514Z INFO: > node server.js
+2026-06-10T10:29:52.322484614Z INFO: 
+2026-06-10T10:29:56.836175382Z INFO: 2026-06-10 10:29:56 INFO: Server started at 10000
+2026-06-10T10:29:57.563219907Z INFO: 2026-06-10 10:29:57 INFO: Incoming HEAD request to /
+2026-06-10T10:29:58.074797854Z INFO: Database connected
+2026-06-10T10:30:01.448912005Z INFO: [0;32m[1m==> [0m[1mYour service is live 🎉[0m
+2026-06-10T10:30:01.507845407Z INFO: 2026-06-10 10:30:01 INFO: Incoming GET request to /
+2026-06-10T10:30:01.692205688Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.694795044Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:30:01.697149284Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.699447001Z INFO: [0;32m[1m==> [0m[1mAvailable at your primary URL https://portfolio-backend-vwhl.onrender.com[0m
+2026-06-10T10:30:01.702115023Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.704074896Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:31:44.269492585Z INFO: 2026-06-10 10:31:44 INFO: Incoming POST request to /api/visitor/contact
+2026-06-10T10:35:06.391943962Z INFO: [0;32m[1m==> [0m[1mDetected service running on port 10000[0m
+2026-06-10T10:35:07.549275558Z INFO: [0;32m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:23:48.567766878Z INFO: errno: undefined,
+2026-06-10T10:23:48.567781448Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:23:48.567784768Z INFO: syscall: 'querySrv',
+2026-06-10T10:23:48.567788288Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:23:48.567791738Z INFO: }
+2026-06-10T10:23:48.567793669Z INFO: 
+2026-06-10T10:23:48.567796378Z INFO: Node.js v22.16.0
+2026-06-10T10:24:05.357539714Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:24:05.742383675Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:24:20.677349342Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:24:20.677353552Z INFO: errno: undefined,
+2026-06-10T10:24:20.677358142Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:24:20.677362432Z INFO: syscall: 'querySrv',
+2026-06-10T10:24:20.677367022Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:24:20.677371272Z INFO: }
+2026-06-10T10:24:20.677375143Z INFO: 
+2026-06-10T10:24:20.677379303Z INFO: Node.js v22.16.0
+2026-06-10T10:25:09.475678279Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:25:10.056471836Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:25:10.508384728Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:25:10.725942552Z INFO: 
+2026-06-10T10:25:10.72628747Z INFO: > server@1.0.0 start
+2026-06-10T10:25:10.72629569Z INFO: > node server.js
+2026-06-10T10:25:10.726298301Z INFO: 
+2026-06-10T10:25:16.271929932Z INFO: 2026-06-10 10:25:16 INFO: Server started at 10000
+2026-06-10T10:25:16.27735716Z INFO: node:internal/dns/promises:294
+2026-06-10T10:25:16.27737304Z INFO: this.reject(new DNSException(err, this.bindingName, this.hostname));
+2026-06-10T10:25:16.277378001Z INFO: ^
+2026-06-10T10:25:16.277382151Z INFO: 
+2026-06-10T10:25:16.277386461Z INFO: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.tacmizj.mongodb.net
+2026-06-10T10:25:16.277391441Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:25:16.277395611Z INFO: errno: undefined,
+2026-06-10T10:25:16.277399741Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:25:16.277403581Z INFO: syscall: 'querySrv',
+2026-06-10T10:25:16.277407972Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:25:16.277411781Z INFO: }
+2026-06-10T10:25:16.277415482Z INFO: 
+2026-06-10T10:25:16.277419362Z INFO: Node.js v22.16.0
+2026-06-10T10:25:57.989393412Z INFO: [0;31m[1m==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.[0m
+2026-06-10T10:25:58.405520335Z INFO: [0;31m[1m==> Docs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:26:48.105376611Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:26:49.234929357Z INFO: 
+2026-06-10T10:26:49.234963528Z INFO: > server@1.0.0 start
+2026-06-10T10:26:49.234968458Z INFO: > node server.js
+2026-06-10T10:26:49.234988988Z INFO: 
+2026-06-10T10:26:56.207390667Z INFO: 2026-06-10 10:26:56 INFO: Server started at 10000
+2026-06-10T10:26:57.32154756Z INFO: Database connected
+2026-06-10T10:29:01.215145378Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:02.223132922Z INFO: 
+2026-06-10T10:29:02.223151143Z INFO: > server@1.0.0 start
+2026-06-10T10:29:02.223154953Z INFO: > node server.js
+2026-06-10T10:29:02.223157893Z INFO: 
+2026-06-10T10:29:06.217669626Z INFO: Server started at 10000
+2026-06-10T10:29:07.200072456Z INFO: Database connected
+2026-06-10T10:29:16.089536006Z INFO: [34m[1m==>(B[m [1mDownloading cache...(B[m
+2026-06-10T10:29:16.124039004Z INFO: [34m[1m==>(B[m [1mCloning from https://github.com/sandeshnepal106/portfolio(B[m
+2026-06-10T10:29:22.278443999Z INFO: [34m[1m==>(B[m [1mChecking out commit 7133d69e8245d87929fdaeb78e622d8a5f90ce9a in branch main(B[m
+2026-06-10T10:29:23.411777301Z INFO: [34m[1m==>(B[m [1mDownloaded 8.2MB in 5s. Extraction took 1s.(B[m
+2026-06-10T10:29:24.201203235Z INFO: [34;1m==>[0;22m [1mUsing Node.js version 22.16.0 (default)[22m
+2026-06-10T10:29:24.201214815Z INFO: [34;1m==>[0;22m [1mDocs on specifying a Node.js version: https://render.com/docs/node-version[22m
+2026-06-10T10:29:24.201394469Z INFO: [34;1m==>[0;22m [1mInstalling Node.js version 22.16.0...[22m
+2026-06-10T10:29:25.188862546Z INFO: [34m[1m==>(B[m [1mRunning build command 'npm install'...(B[m
+2026-06-10T10:29:26.2764041Z INFO: 
+2026-06-10T10:29:26.27643377Z INFO: up to date, audited 175 packages in 1s
+2026-06-10T10:29:26.276445541Z INFO: 
+2026-06-10T10:29:26.276449701Z INFO: 23 packages are looking for funding
+2026-06-10T10:29:26.276454311Z INFO: run `npm fund` for details
+2026-06-10T10:29:26.296897109Z INFO: 
+2026-06-10T10:29:26.29693Z INFO: 12 vulnerabilities (3 moderate, 9 high)
+2026-06-10T10:29:26.29693439Z INFO: 
+2026-06-10T10:29:26.29693923Z INFO: To address issues that do not require attention, run:
+2026-06-10T10:29:26.29694324Z INFO: npm audit fix
+2026-06-10T10:29:26.29694562Z INFO: 
+2026-06-10T10:29:26.296948Z INFO: To address all issues (including breaking changes), run:
+2026-06-10T10:29:26.2969515Z INFO: npm audit fix --force
+2026-06-10T10:29:26.29695384Z INFO: 
+2026-06-10T10:29:26.296956841Z INFO: Run `npm audit` for details.
+2026-06-10T10:29:28.148909466Z INFO: [34;1m==>[0;22m [1mUploading build...[22m
+2026-06-10T10:29:31.351720401Z INFO: [34;1m==>[0;22m [1mUploaded in 1.8s. Compression took 1.4s[22m
+2026-06-10T10:29:31.367631507Z INFO: [32;1m==>[0;22m [1mBuild successful 🎉[22m
+2026-06-10T10:29:40.211327853Z INFO: [0;34m[1m==> [0m[1mDeploying...[0m
+2026-06-10T10:29:51.326396978Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:52.322445953Z INFO: 
+2026-06-10T10:29:52.322477084Z INFO: > server@1.0.0 start
+2026-06-10T10:29:52.322481514Z INFO: > node server.js
+2026-06-10T10:29:52.322484614Z INFO: 
+2026-06-10T10:29:56.836175382Z INFO: 2026-06-10 10:29:56 INFO: Server started at 10000
+2026-06-10T10:29:57.563219907Z INFO: 2026-06-10 10:29:57 INFO: Incoming HEAD request to /
+2026-06-10T10:29:58.074797854Z INFO: Database connected
+2026-06-10T10:30:01.448912005Z INFO: [0;32m[1m==> [0m[1mYour service is live 🎉[0m
+2026-06-10T10:30:01.507845407Z INFO: 2026-06-10 10:30:01 INFO: Incoming GET request to /
+2026-06-10T10:30:01.692205688Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.694795044Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:30:01.697149284Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.699447001Z INFO: [0;32m[1m==> [0m[1mAvailable at your primary URL https://portfolio-backend-vwhl.onrender.com[0m
+2026-06-10T10:30:01.702115023Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.704074896Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:31:44.269492585Z INFO: 2026-06-10 10:31:44 INFO: Incoming POST request to /api/visitor/contact
+2026-06-10T10:35:06.391943962Z INFO: [0;32m[1m==> [0m[1mDetected service running on port 10000[0m
+2026-06-10T10:35:07.549275558Z INFO: [0;32m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:23:48.567766878Z INFO: errno: undefined,
+2026-06-10T10:23:48.567781448Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:23:48.567784768Z INFO: syscall: 'querySrv',
+2026-06-10T10:23:48.567788288Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:23:48.567791738Z INFO: }
+2026-06-10T10:23:48.567793669Z INFO: 
+2026-06-10T10:23:48.567796378Z INFO: Node.js v22.16.0
+2026-06-10T10:24:05.357539714Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:24:05.742383675Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:24:20.677349342Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:24:20.677353552Z INFO: errno: undefined,
+2026-06-10T10:24:20.677358142Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:24:20.677362432Z INFO: syscall: 'querySrv',
+2026-06-10T10:24:20.677367022Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:24:20.677371272Z INFO: }
+2026-06-10T10:24:20.677375143Z INFO: 
+2026-06-10T10:24:20.677379303Z INFO: Node.js v22.16.0
+2026-06-10T10:25:09.475678279Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:25:10.056471836Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:25:10.508384728Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:25:10.725942552Z INFO: 
+2026-06-10T10:25:10.72628747Z INFO: > server@1.0.0 start
+2026-06-10T10:25:10.72629569Z INFO: > node server.js
+2026-06-10T10:25:10.726298301Z INFO: 
+2026-06-10T10:25:16.271929932Z INFO: 2026-06-10 10:25:16 INFO: Server started at 10000
+2026-06-10T10:25:16.27735716Z INFO: node:internal/dns/promises:294
+2026-06-10T10:25:16.27737304Z INFO: this.reject(new DNSException(err, this.bindingName, this.hostname));
+2026-06-10T10:25:16.277378001Z INFO: ^
+2026-06-10T10:25:16.277382151Z INFO: 
+2026-06-10T10:25:16.277386461Z INFO: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.tacmizj.mongodb.net
+2026-06-10T10:25:16.277391441Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:25:16.277395611Z INFO: errno: undefined,
+2026-06-10T10:25:16.277399741Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:25:16.277403581Z INFO: syscall: 'querySrv',
+2026-06-10T10:25:16.277407972Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:25:16.277411781Z INFO: }
+2026-06-10T10:25:16.277415482Z INFO: 
+2026-06-10T10:25:16.277419362Z INFO: Node.js v22.16.0
+2026-06-10T10:25:57.989393412Z INFO: [0;31m[1m==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.[0m
+2026-06-10T10:25:58.405520335Z INFO: [0;31m[1m==> Docs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:26:48.105376611Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:26:49.234929357Z INFO: 
+2026-06-10T10:26:49.234963528Z INFO: > server@1.0.0 start
+2026-06-10T10:26:49.234968458Z INFO: > node server.js
+2026-06-10T10:26:49.234988988Z INFO: 
+2026-06-10T10:26:56.207390667Z INFO: 2026-06-10 10:26:56 INFO: Server started at 10000
+2026-06-10T10:26:57.32154756Z INFO: Database connected
+2026-06-10T10:29:01.215145378Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:02.223132922Z INFO: 
+2026-06-10T10:29:02.223151143Z INFO: > server@1.0.0 start
+2026-06-10T10:29:02.223154953Z INFO: > node server.js
+2026-06-10T10:29:02.223157893Z INFO: 
+2026-06-10T10:29:06.217669626Z INFO: Server started at 10000
+2026-06-10T10:29:07.200072456Z INFO: Database connected
+2026-06-10T10:29:16.089536006Z INFO: [34m[1m==>(B[m [1mDownloading cache...(B[m
+2026-06-10T10:29:16.124039004Z INFO: [34m[1m==>(B[m [1mCloning from https://github.com/sandeshnepal106/portfolio(B[m
+2026-06-10T10:29:22.278443999Z INFO: [34m[1m==>(B[m [1mChecking out commit 7133d69e8245d87929fdaeb78e622d8a5f90ce9a in branch main(B[m
+2026-06-10T10:29:23.411777301Z INFO: [34m[1m==>(B[m [1mDownloaded 8.2MB in 5s. Extraction took 1s.(B[m
+2026-06-10T10:29:24.201203235Z INFO: [34;1m==>[0;22m [1mUsing Node.js version 22.16.0 (default)[22m
+2026-06-10T10:29:24.201214815Z INFO: [34;1m==>[0;22m [1mDocs on specifying a Node.js version: https://render.com/docs/node-version[22m
+2026-06-10T10:29:24.201394469Z INFO: [34;1m==>[0;22m [1mInstalling Node.js version 22.16.0...[22m
+2026-06-10T10:29:25.188862546Z INFO: [34m[1m==>(B[m [1mRunning build command 'npm install'...(B[m
+2026-06-10T10:29:26.2764041Z INFO: 
+2026-06-10T10:29:26.27643377Z INFO: up to date, audited 175 packages in 1s
+2026-06-10T10:29:26.276445541Z INFO: 
+2026-06-10T10:29:26.276449701Z INFO: 23 packages are looking for funding
+2026-06-10T10:29:26.276454311Z INFO: run `npm fund` for details
+2026-06-10T10:29:26.296897109Z INFO: 
+2026-06-10T10:29:26.29693Z INFO: 12 vulnerabilities (3 moderate, 9 high)
+2026-06-10T10:29:26.29693439Z INFO: 
+2026-06-10T10:29:26.29693923Z INFO: To address issues that do not require attention, run:
+2026-06-10T10:29:26.29694324Z INFO: npm audit fix
+2026-06-10T10:29:26.29694562Z INFO: 
+2026-06-10T10:29:26.296948Z INFO: To address all issues (including breaking changes), run:
+2026-06-10T10:29:26.2969515Z INFO: npm audit fix --force
+2026-06-10T10:29:26.29695384Z INFO: 
+2026-06-10T10:29:26.296956841Z INFO: Run `npm audit` for details.
+2026-06-10T10:29:28.148909466Z INFO: [34;1m==>[0;22m [1mUploading build...[22m
+2026-06-10T10:29:31.351720401Z INFO: [34;1m==>[0;22m [1mUploaded in 1.8s. Compression took 1.4s[22m
+2026-06-10T10:29:31.367631507Z INFO: [32;1m==>[0;22m [1mBuild successful 🎉[22m
+2026-06-10T10:29:40.211327853Z INFO: [0;34m[1m==> [0m[1mDeploying...[0m
+2026-06-10T10:29:51.326396978Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:52.322445953Z INFO: 
+2026-06-10T10:29:52.322477084Z INFO: > server@1.0.0 start
+2026-06-10T10:29:52.322481514Z INFO: > node server.js
+2026-06-10T10:29:52.322484614Z INFO: 
+2026-06-10T10:29:56.836175382Z INFO: 2026-06-10 10:29:56 INFO: Server started at 10000
+2026-06-10T10:29:57.563219907Z INFO: 2026-06-10 10:29:57 INFO: Incoming HEAD request to /
+2026-06-10T10:29:58.074797854Z INFO: Database connected
+2026-06-10T10:30:01.448912005Z INFO: [0;32m[1m==> [0m[1mYour service is live 🎉[0m
+2026-06-10T10:30:01.507845407Z INFO: 2026-06-10 10:30:01 INFO: Incoming GET request to /
+2026-06-10T10:30:01.692205688Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.694795044Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:30:01.697149284Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.699447001Z INFO: [0;32m[1m==> [0m[1mAvailable at your primary URL https://portfolio-backend-vwhl.onrender.com[0m
+2026-06-10T10:30:01.702115023Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.704074896Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:31:44.269492585Z INFO: 2026-06-10 10:31:44 INFO: Incoming POST request to /api/visitor/contact
+2026-06-10T10:35:06.391943962Z INFO: [0;32m[1m==> [0m[1mDetected service running on port 10000[0m
+2026-06-10T10:35:07.549275558Z INFO: [0;32m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:23:48.567766878Z INFO: errno: undefined,
+2026-06-10T10:23:48.567781448Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:23:48.567784768Z INFO: syscall: 'querySrv',
+2026-06-10T10:23:48.567788288Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:23:48.567791738Z INFO: }
+2026-06-10T10:23:48.567793669Z INFO: 
+2026-06-10T10:23:48.567796378Z INFO: Node.js v22.16.0
+2026-06-10T10:24:05.357539714Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:24:05.742383675Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:24:20.677349342Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:24:20.677353552Z INFO: errno: undefined,
+2026-06-10T10:24:20.677358142Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:24:20.677362432Z INFO: syscall: 'querySrv',
+2026-06-10T10:24:20.677367022Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:24:20.677371272Z INFO: }
+2026-06-10T10:24:20.677375143Z INFO: 
+2026-06-10T10:24:20.677379303Z INFO: Node.js v22.16.0
+2026-06-10T10:25:09.475678279Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:25:10.056471836Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:25:10.508384728Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:25:10.725942552Z INFO: 
+2026-06-10T10:25:10.72628747Z INFO: > server@1.0.0 start
+2026-06-10T10:25:10.72629569Z INFO: > node server.js
+2026-06-10T10:25:10.726298301Z INFO: 
+2026-06-10T10:25:16.271929932Z INFO: 2026-06-10 10:25:16 INFO: Server started at 10000
+2026-06-10T10:25:16.27735716Z INFO: node:internal/dns/promises:294
+2026-06-10T10:25:16.27737304Z INFO: this.reject(new DNSException(err, this.bindingName, this.hostname));
+2026-06-10T10:25:16.277378001Z INFO: ^
+2026-06-10T10:25:16.277382151Z INFO: 
+2026-06-10T10:25:16.277386461Z INFO: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.tacmizj.mongodb.net
+2026-06-10T10:25:16.277391441Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:25:16.277395611Z INFO: errno: undefined,
+2026-06-10T10:25:16.277399741Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:25:16.277403581Z INFO: syscall: 'querySrv',
+2026-06-10T10:25:16.277407972Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:25:16.277411781Z INFO: }
+2026-06-10T10:25:16.277415482Z INFO: 
+2026-06-10T10:25:16.277419362Z INFO: Node.js v22.16.0
+2026-06-10T10:25:57.989393412Z INFO: [0;31m[1m==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.[0m
+2026-06-10T10:25:58.405520335Z INFO: [0;31m[1m==> Docs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:26:48.105376611Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:26:49.234929357Z INFO: 
+2026-06-10T10:26:49.234963528Z INFO: > server@1.0.0 start
+2026-06-10T10:26:49.234968458Z INFO: > node server.js
+2026-06-10T10:26:49.234988988Z INFO: 
+2026-06-10T10:26:56.207390667Z INFO: 2026-06-10 10:26:56 INFO: Server started at 10000
+2026-06-10T10:26:57.32154756Z INFO: Database connected
+2026-06-10T10:29:01.215145378Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:02.223132922Z INFO: 
+2026-06-10T10:29:02.223151143Z INFO: > server@1.0.0 start
+2026-06-10T10:29:02.223154953Z INFO: > node server.js
+2026-06-10T10:29:02.223157893Z INFO: 
+2026-06-10T10:29:06.217669626Z INFO: Server started at 10000
+2026-06-10T10:29:07.200072456Z INFO: Database connected
+2026-06-10T10:29:16.089536006Z INFO: [34m[1m==>(B[m [1mDownloading cache...(B[m
+2026-06-10T10:29:16.124039004Z INFO: [34m[1m==>(B[m [1mCloning from https://github.com/sandeshnepal106/portfolio(B[m
+2026-06-10T10:29:22.278443999Z INFO: [34m[1m==>(B[m [1mChecking out commit 7133d69e8245d87929fdaeb78e622d8a5f90ce9a in branch main(B[m
+2026-06-10T10:29:23.411777301Z INFO: [34m[1m==>(B[m [1mDownloaded 8.2MB in 5s. Extraction took 1s.(B[m
+2026-06-10T10:29:24.201203235Z INFO: [34;1m==>[0;22m [1mUsing Node.js version 22.16.0 (default)[22m
+2026-06-10T10:29:24.201214815Z INFO: [34;1m==>[0;22m [1mDocs on specifying a Node.js version: https://render.com/docs/node-version[22m
+2026-06-10T10:29:24.201394469Z INFO: [34;1m==>[0;22m [1mInstalling Node.js version 22.16.0...[22m
+2026-06-10T10:29:25.188862546Z INFO: [34m[1m==>(B[m [1mRunning build command 'npm install'...(B[m
+2026-06-10T10:29:26.2764041Z INFO: 
+2026-06-10T10:29:26.27643377Z INFO: up to date, audited 175 packages in 1s
+2026-06-10T10:29:26.276445541Z INFO: 
+2026-06-10T10:29:26.276449701Z INFO: 23 packages are looking for funding
+2026-06-10T10:29:26.276454311Z INFO: run `npm fund` for details
+2026-06-10T10:29:26.296897109Z INFO: 
+2026-06-10T10:29:26.29693Z INFO: 12 vulnerabilities (3 moderate, 9 high)
+2026-06-10T10:29:26.29693439Z INFO: 
+2026-06-10T10:29:26.29693923Z INFO: To address issues that do not require attention, run:
+2026-06-10T10:29:26.29694324Z INFO: npm audit fix
+2026-06-10T10:29:26.29694562Z INFO: 
+2026-06-10T10:29:26.296948Z INFO: To address all issues (including breaking changes), run:
+2026-06-10T10:29:26.2969515Z INFO: npm audit fix --force
+2026-06-10T10:29:26.29695384Z INFO: 
+2026-06-10T10:29:26.296956841Z INFO: Run `npm audit` for details.
+2026-06-10T10:29:28.148909466Z INFO: [34;1m==>[0;22m [1mUploading build...[22m
+2026-06-10T10:29:31.351720401Z INFO: [34;1m==>[0;22m [1mUploaded in 1.8s. Compression took 1.4s[22m
+2026-06-10T10:29:31.367631507Z INFO: [32;1m==>[0;22m [1mBuild successful 🎉[22m
+2026-06-10T10:29:40.211327853Z INFO: [0;34m[1m==> [0m[1mDeploying...[0m
+2026-06-10T10:29:51.326396978Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:52.322445953Z INFO: 
+2026-06-10T10:29:52.322477084Z INFO: > server@1.0.0 start
+2026-06-10T10:29:52.322481514Z INFO: > node server.js
+2026-06-10T10:29:52.322484614Z INFO: 
+2026-06-10T10:29:56.836175382Z INFO: 2026-06-10 10:29:56 INFO: Server started at 10000
+2026-06-10T10:29:57.563219907Z INFO: 2026-06-10 10:29:57 INFO: Incoming HEAD request to /
+2026-06-10T10:29:58.074797854Z INFO: Database connected
+2026-06-10T10:30:01.448912005Z INFO: [0;32m[1m==> [0m[1mYour service is live 🎉[0m
+2026-06-10T10:30:01.507845407Z INFO: 2026-06-10 10:30:01 INFO: Incoming GET request to /
+2026-06-10T10:30:01.692205688Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.694795044Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:30:01.697149284Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.699447001Z INFO: [0;32m[1m==> [0m[1mAvailable at your primary URL https://portfolio-backend-vwhl.onrender.com[0m
+2026-06-10T10:30:01.702115023Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.704074896Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:31:44.269492585Z INFO: 2026-06-10 10:31:44 INFO: Incoming POST request to /api/visitor/contact
+2026-06-10T10:35:06.391943962Z INFO: [0;32m[1m==> [0m[1mDetected service running on port 10000[0m
+2026-06-10T10:35:07.549275558Z INFO: [0;32m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:23:48.567766878Z INFO: errno: undefined,
+2026-06-10T10:23:48.567781448Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:23:48.567784768Z INFO: syscall: 'querySrv',
+2026-06-10T10:23:48.567788288Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:23:48.567791738Z INFO: }
+2026-06-10T10:23:48.567793669Z INFO: 
+2026-06-10T10:23:48.567796378Z INFO: Node.js v22.16.0
+2026-06-10T10:24:05.357539714Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:24:05.742383675Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:24:20.677349342Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:24:20.677353552Z INFO: errno: undefined,
+2026-06-10T10:24:20.677358142Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:24:20.677362432Z INFO: syscall: 'querySrv',
+2026-06-10T10:24:20.677367022Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:24:20.677371272Z INFO: }
+2026-06-10T10:24:20.677375143Z INFO: 
+2026-06-10T10:24:20.677379303Z INFO: Node.js v22.16.0
+2026-06-10T10:25:09.475678279Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:25:10.056471836Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:25:10.508384728Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:25:10.725942552Z INFO: 
+2026-06-10T10:25:10.72628747Z INFO: > server@1.0.0 start
+2026-06-10T10:25:10.72629569Z INFO: > node server.js
+2026-06-10T10:25:10.726298301Z INFO: 
+2026-06-10T10:25:16.271929932Z INFO: 2026-06-10 10:25:16 INFO: Server started at 10000
+2026-06-10T10:25:16.27735716Z INFO: node:internal/dns/promises:294
+2026-06-10T10:25:16.27737304Z INFO: this.reject(new DNSException(err, this.bindingName, this.hostname));
+2026-06-10T10:25:16.277378001Z INFO: ^
+2026-06-10T10:25:16.277382151Z INFO: 
+2026-06-10T10:25:16.277386461Z INFO: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.tacmizj.mongodb.net
+2026-06-10T10:25:16.277391441Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:25:16.277395611Z INFO: errno: undefined,
+2026-06-10T10:25:16.277399741Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:25:16.277403581Z INFO: syscall: 'querySrv',
+2026-06-10T10:25:16.277407972Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:25:16.277411781Z INFO: }
+2026-06-10T10:25:16.277415482Z INFO: 
+2026-06-10T10:25:16.277419362Z INFO: Node.js v22.16.0
+2026-06-10T10:25:57.989393412Z INFO: [0;31m[1m==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.[0m
+2026-06-10T10:25:58.405520335Z INFO: [0;31m[1m==> Docs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:26:48.105376611Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:26:49.234929357Z INFO: 
+2026-06-10T10:26:49.234963528Z INFO: > server@1.0.0 start
+2026-06-10T10:26:49.234968458Z INFO: > node server.js
+2026-06-10T10:26:49.234988988Z INFO: 
+2026-06-10T10:26:56.207390667Z INFO: 2026-06-10 10:26:56 INFO: Server started at 10000
+2026-06-10T10:26:57.32154756Z INFO: Database connected
+2026-06-10T10:29:01.215145378Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:02.223132922Z INFO: 
+2026-06-10T10:29:02.223151143Z INFO: > server@1.0.0 start
+2026-06-10T10:29:02.223154953Z INFO: > node server.js
+2026-06-10T10:29:02.223157893Z INFO: 
+2026-06-10T10:29:06.217669626Z INFO: Server started at 10000
+2026-06-10T10:29:07.200072456Z INFO: Database connected
+2026-06-10T10:29:16.089536006Z INFO: [34m[1m==>(B[m [1mDownloading cache...(B[m
+2026-06-10T10:29:16.124039004Z INFO: [34m[1m==>(B[m [1mCloning from https://github.com/sandeshnepal106/portfolio(B[m
+2026-06-10T10:29:22.278443999Z INFO: [34m[1m==>(B[m [1mChecking out commit 7133d69e8245d87929fdaeb78e622d8a5f90ce9a in branch main(B[m
+2026-06-10T10:29:23.411777301Z INFO: [34m[1m==>(B[m [1mDownloaded 8.2MB in 5s. Extraction took 1s.(B[m
+2026-06-10T10:29:24.201203235Z INFO: [34;1m==>[0;22m [1mUsing Node.js version 22.16.0 (default)[22m
+2026-06-10T10:29:24.201214815Z INFO: [34;1m==>[0;22m [1mDocs on specifying a Node.js version: https://render.com/docs/node-version[22m
+2026-06-10T10:29:24.201394469Z INFO: [34;1m==>[0;22m [1mInstalling Node.js version 22.16.0...[22m
+2026-06-10T10:29:25.188862546Z INFO: [34m[1m==>(B[m [1mRunning build command 'npm install'...(B[m
+2026-06-10T10:29:26.2764041Z INFO: 
+2026-06-10T10:29:26.27643377Z INFO: up to date, audited 175 packages in 1s
+2026-06-10T10:29:26.276445541Z INFO: 
+2026-06-10T10:29:26.276449701Z INFO: 23 packages are looking for funding
+2026-06-10T10:29:26.276454311Z INFO: run `npm fund` for details
+2026-06-10T10:29:26.296897109Z INFO: 
+2026-06-10T10:29:26.29693Z INFO: 12 vulnerabilities (3 moderate, 9 high)
+2026-06-10T10:29:26.29693439Z INFO: 
+2026-06-10T10:29:26.29693923Z INFO: To address issues that do not require attention, run:
+2026-06-10T10:29:26.29694324Z INFO: npm audit fix
+2026-06-10T10:29:26.29694562Z INFO: 
+2026-06-10T10:29:26.296948Z INFO: To address all issues (including breaking changes), run:
+2026-06-10T10:29:26.2969515Z INFO: npm audit fix --force
+2026-06-10T10:29:26.29695384Z INFO: 
+2026-06-10T10:29:26.296956841Z INFO: Run `npm audit` for details.
+2026-06-10T10:29:28.148909466Z INFO: [34;1m==>[0;22m [1mUploading build...[22m
+2026-06-10T10:29:31.351720401Z INFO: [34;1m==>[0;22m [1mUploaded in 1.8s. Compression took 1.4s[22m
+2026-06-10T10:29:31.367631507Z INFO: [32;1m==>[0;22m [1mBuild successful 🎉[22m
+2026-06-10T10:29:40.211327853Z INFO: [0;34m[1m==> [0m[1mDeploying...[0m
+2026-06-10T10:29:51.326396978Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:52.322445953Z INFO: 
+2026-06-10T10:29:52.322477084Z INFO: > server@1.0.0 start
+2026-06-10T10:29:52.322481514Z INFO: > node server.js
+2026-06-10T10:29:52.322484614Z INFO: 
+2026-06-10T10:29:56.836175382Z INFO: 2026-06-10 10:29:56 INFO: Server started at 10000
+2026-06-10T10:29:57.563219907Z INFO: 2026-06-10 10:29:57 INFO: Incoming HEAD request to /
+2026-06-10T10:29:58.074797854Z INFO: Database connected
+2026-06-10T10:30:01.448912005Z INFO: [0;32m[1m==> [0m[1mYour service is live 🎉[0m
+2026-06-10T10:30:01.507845407Z INFO: 2026-06-10 10:30:01 INFO: Incoming GET request to /
+2026-06-10T10:30:01.692205688Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.694795044Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:30:01.697149284Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.699447001Z INFO: [0;32m[1m==> [0m[1mAvailable at your primary URL https://portfolio-backend-vwhl.onrender.com[0m
+2026-06-10T10:30:01.702115023Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.704074896Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:31:44.269492585Z INFO: 2026-06-10 10:31:44 INFO: Incoming POST request to /api/visitor/contact
+2026-06-10T10:35:06.391943962Z INFO: [0;32m[1m==> [0m[1mDetected service running on port 10000[0m
+2026-06-10T10:35:07.549275558Z INFO: [0;32m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:23:48.567766878Z INFO: errno: undefined,
+2026-06-10T10:23:48.567781448Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:23:48.567784768Z INFO: syscall: 'querySrv',
+2026-06-10T10:23:48.567788288Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:23:48.567791738Z INFO: }
+2026-06-10T10:23:48.567793669Z INFO: 
+2026-06-10T10:23:48.567796378Z INFO: Node.js v22.16.0
+2026-06-10T10:24:05.357539714Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:24:05.742383675Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:24:20.677349342Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:24:20.677353552Z INFO: errno: undefined,
+2026-06-10T10:24:20.677358142Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:24:20.677362432Z INFO: syscall: 'querySrv',
+2026-06-10T10:24:20.677367022Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:24:20.677371272Z INFO: }
+2026-06-10T10:24:20.677375143Z INFO: 
+2026-06-10T10:24:20.677379303Z INFO: Node.js v22.16.0
+2026-06-10T10:25:09.475678279Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:25:10.056471836Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:25:10.508384728Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:25:10.725942552Z INFO: 
+2026-06-10T10:25:10.72628747Z INFO: > server@1.0.0 start
+2026-06-10T10:25:10.72629569Z INFO: > node server.js
+2026-06-10T10:25:10.726298301Z INFO: 
+2026-06-10T10:25:16.271929932Z INFO: 2026-06-10 10:25:16 INFO: Server started at 10000
+2026-06-10T10:25:16.27735716Z INFO: node:internal/dns/promises:294
+2026-06-10T10:25:16.27737304Z INFO: this.reject(new DNSException(err, this.bindingName, this.hostname));
+2026-06-10T10:25:16.277378001Z INFO: ^
+2026-06-10T10:25:16.277382151Z INFO: 
+2026-06-10T10:25:16.277386461Z INFO: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.tacmizj.mongodb.net
+2026-06-10T10:25:16.277391441Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:25:16.277395611Z INFO: errno: undefined,
+2026-06-10T10:25:16.277399741Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:25:16.277403581Z INFO: syscall: 'querySrv',
+2026-06-10T10:25:16.277407972Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:25:16.277411781Z INFO: }
+2026-06-10T10:25:16.277415482Z INFO: 
+2026-06-10T10:25:16.277419362Z INFO: Node.js v22.16.0
+2026-06-10T10:25:57.989393412Z INFO: [0;31m[1m==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.[0m
+2026-06-10T10:25:58.405520335Z INFO: [0;31m[1m==> Docs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:26:48.105376611Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:26:49.234929357Z INFO: 
+2026-06-10T10:26:49.234963528Z INFO: > server@1.0.0 start
+2026-06-10T10:26:49.234968458Z INFO: > node server.js
+2026-06-10T10:26:49.234988988Z INFO: 
+2026-06-10T10:26:56.207390667Z INFO: 2026-06-10 10:26:56 INFO: Server started at 10000
+2026-06-10T10:26:57.32154756Z INFO: Database connected
+2026-06-10T10:29:01.215145378Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:02.223132922Z INFO: 
+2026-06-10T10:29:02.223151143Z INFO: > server@1.0.0 start
+2026-06-10T10:29:02.223154953Z INFO: > node server.js
+2026-06-10T10:29:02.223157893Z INFO: 
+2026-06-10T10:29:06.217669626Z INFO: Server started at 10000
+2026-06-10T10:29:07.200072456Z INFO: Database connected
+2026-06-10T10:29:16.089536006Z INFO: [34m[1m==>(B[m [1mDownloading cache...(B[m
+2026-06-10T10:29:16.124039004Z INFO: [34m[1m==>(B[m [1mCloning from https://github.com/sandeshnepal106/portfolio(B[m
+2026-06-10T10:29:22.278443999Z INFO: [34m[1m==>(B[m [1mChecking out commit 7133d69e8245d87929fdaeb78e622d8a5f90ce9a in branch main(B[m
+2026-06-10T10:29:23.411777301Z INFO: [34m[1m==>(B[m [1mDownloaded 8.2MB in 5s. Extraction took 1s.(B[m
+2026-06-10T10:29:24.201203235Z INFO: [34;1m==>[0;22m [1mUsing Node.js version 22.16.0 (default)[22m
+2026-06-10T10:29:24.201214815Z INFO: [34;1m==>[0;22m [1mDocs on specifying a Node.js version: https://render.com/docs/node-version[22m
+2026-06-10T10:29:24.201394469Z INFO: [34;1m==>[0;22m [1mInstalling Node.js version 22.16.0...[22m
+2026-06-10T10:29:25.188862546Z INFO: [34m[1m==>(B[m [1mRunning build command 'npm install'...(B[m
+2026-06-10T10:29:26.2764041Z INFO: 
+2026-06-10T10:29:26.27643377Z INFO: up to date, audited 175 packages in 1s
+2026-06-10T10:29:26.276445541Z INFO: 
+2026-06-10T10:29:26.276449701Z INFO: 23 packages are looking for funding
+2026-06-10T10:29:26.276454311Z INFO: run `npm fund` for details
+2026-06-10T10:29:26.296897109Z INFO: 
+2026-06-10T10:29:26.29693Z INFO: 12 vulnerabilities (3 moderate, 9 high)
+2026-06-10T10:29:26.29693439Z INFO: 
+2026-06-10T10:29:26.29693923Z INFO: To address issues that do not require attention, run:
+2026-06-10T10:29:26.29694324Z INFO: npm audit fix
+2026-06-10T10:29:26.29694562Z INFO: 
+2026-06-10T10:29:26.296948Z INFO: To address all issues (including breaking changes), run:
+2026-06-10T10:29:26.2969515Z INFO: npm audit fix --force
+2026-06-10T10:29:26.29695384Z INFO: 
+2026-06-10T10:29:26.296956841Z INFO: Run `npm audit` for details.
+2026-06-10T10:29:28.148909466Z INFO: [34;1m==>[0;22m [1mUploading build...[22m
+2026-06-10T10:29:31.351720401Z INFO: [34;1m==>[0;22m [1mUploaded in 1.8s. Compression took 1.4s[22m
+2026-06-10T10:29:31.367631507Z INFO: [32;1m==>[0;22m [1mBuild successful 🎉[22m
+2026-06-10T10:29:40.211327853Z INFO: [0;34m[1m==> [0m[1mDeploying...[0m
+2026-06-10T10:29:51.326396978Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:52.322445953Z INFO: 
+2026-06-10T10:29:52.322477084Z INFO: > server@1.0.0 start
+2026-06-10T10:29:52.322481514Z INFO: > node server.js
+2026-06-10T10:29:52.322484614Z INFO: 
+2026-06-10T10:29:56.836175382Z INFO: 2026-06-10 10:29:56 INFO: Server started at 10000
+2026-06-10T10:29:57.563219907Z INFO: 2026-06-10 10:29:57 INFO: Incoming HEAD request to /
+2026-06-10T10:29:58.074797854Z INFO: Database connected
+2026-06-10T10:30:01.448912005Z INFO: [0;32m[1m==> [0m[1mYour service is live 🎉[0m
+2026-06-10T10:30:01.507845407Z INFO: 2026-06-10 10:30:01 INFO: Incoming GET request to /
+2026-06-10T10:30:01.692205688Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.694795044Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:30:01.697149284Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.699447001Z INFO: [0;32m[1m==> [0m[1mAvailable at your primary URL https://portfolio-backend-vwhl.onrender.com[0m
+2026-06-10T10:30:01.702115023Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.704074896Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:31:44.269492585Z INFO: 2026-06-10 10:31:44 INFO: Incoming POST request to /api/visitor/contact
+2026-06-10T10:35:06.391943962Z INFO: [0;32m[1m==> [0m[1mDetected service running on port 10000[0m
+2026-06-10T10:35:07.549275558Z INFO: [0;32m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:23:48.567766878Z INFO: errno: undefined,
+2026-06-10T10:23:48.567781448Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:23:48.567784768Z INFO: syscall: 'querySrv',
+2026-06-10T10:23:48.567788288Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:23:48.567791738Z INFO: }
+2026-06-10T10:23:48.567793669Z INFO: 
+2026-06-10T10:23:48.567796378Z INFO: Node.js v22.16.0
+2026-06-10T10:24:05.357539714Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:24:05.742383675Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:24:20.677349342Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:24:20.677353552Z INFO: errno: undefined,
+2026-06-10T10:24:20.677358142Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:24:20.677362432Z INFO: syscall: 'querySrv',
+2026-06-10T10:24:20.677367022Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:24:20.677371272Z INFO: }
+2026-06-10T10:24:20.677375143Z INFO: 
+2026-06-10T10:24:20.677379303Z INFO: Node.js v22.16.0
+2026-06-10T10:25:09.475678279Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:25:10.056471836Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:25:10.508384728Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:25:10.725942552Z INFO: 
+2026-06-10T10:25:10.72628747Z INFO: > server@1.0.0 start
+2026-06-10T10:25:10.72629569Z INFO: > node server.js
+2026-06-10T10:25:10.726298301Z INFO: 
+2026-06-10T10:25:16.271929932Z INFO: 2026-06-10 10:25:16 INFO: Server started at 10000
+2026-06-10T10:25:16.27735716Z INFO: node:internal/dns/promises:294
+2026-06-10T10:25:16.27737304Z INFO: this.reject(new DNSException(err, this.bindingName, this.hostname));
+2026-06-10T10:25:16.277378001Z INFO: ^
+2026-06-10T10:25:16.277382151Z INFO: 
+2026-06-10T10:25:16.277386461Z INFO: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.tacmizj.mongodb.net
+2026-06-10T10:25:16.277391441Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:25:16.277395611Z INFO: errno: undefined,
+2026-06-10T10:25:16.277399741Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:25:16.277403581Z INFO: syscall: 'querySrv',
+2026-06-10T10:25:16.277407972Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:25:16.277411781Z INFO: }
+2026-06-10T10:25:16.277415482Z INFO: 
+2026-06-10T10:25:16.277419362Z INFO: Node.js v22.16.0
+2026-06-10T10:25:57.989393412Z INFO: [0;31m[1m==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.[0m
+2026-06-10T10:25:58.405520335Z INFO: [0;31m[1m==> Docs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:26:48.105376611Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:26:49.234929357Z INFO: 
+2026-06-10T10:26:49.234963528Z INFO: > server@1.0.0 start
+2026-06-10T10:26:49.234968458Z INFO: > node server.js
+2026-06-10T10:26:49.234988988Z INFO: 
+2026-06-10T10:26:56.207390667Z INFO: 2026-06-10 10:26:56 INFO: Server started at 10000
+2026-06-10T10:26:57.32154756Z INFO: Database connected
+2026-06-10T10:29:01.215145378Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:02.223132922Z INFO: 
+2026-06-10T10:29:02.223151143Z INFO: > server@1.0.0 start
+2026-06-10T10:29:02.223154953Z INFO: > node server.js
+2026-06-10T10:29:02.223157893Z INFO: 
+2026-06-10T10:29:06.217669626Z INFO: Server started at 10000
+2026-06-10T10:29:07.200072456Z INFO: Database connected
+2026-06-10T10:29:16.089536006Z INFO: [34m[1m==>(B[m [1mDownloading cache...(B[m
+2026-06-10T10:29:16.124039004Z INFO: [34m[1m==>(B[m [1mCloning from https://github.com/sandeshnepal106/portfolio(B[m
+2026-06-10T10:29:22.278443999Z INFO: [34m[1m==>(B[m [1mChecking out commit 7133d69e8245d87929fdaeb78e622d8a5f90ce9a in branch main(B[m
+2026-06-10T10:29:23.411777301Z INFO: [34m[1m==>(B[m [1mDownloaded 8.2MB in 5s. Extraction took 1s.(B[m
+2026-06-10T10:29:24.201203235Z INFO: [34;1m==>[0;22m [1mUsing Node.js version 22.16.0 (default)[22m
+2026-06-10T10:29:24.201214815Z INFO: [34;1m==>[0;22m [1mDocs on specifying a Node.js version: https://render.com/docs/node-version[22m
+2026-06-10T10:29:24.201394469Z INFO: [34;1m==>[0;22m [1mInstalling Node.js version 22.16.0...[22m
+2026-06-10T10:29:25.188862546Z INFO: [34m[1m==>(B[m [1mRunning build command 'npm install'...(B[m
+2026-06-10T10:29:26.2764041Z INFO: 
+2026-06-10T10:29:26.27643377Z INFO: up to date, audited 175 packages in 1s
+2026-06-10T10:29:26.276445541Z INFO: 
+2026-06-10T10:29:26.276449701Z INFO: 23 packages are looking for funding
+2026-06-10T10:29:26.276454311Z INFO: run `npm fund` for details
+2026-06-10T10:29:26.296897109Z INFO: 
+2026-06-10T10:29:26.29693Z INFO: 12 vulnerabilities (3 moderate, 9 high)
+2026-06-10T10:29:26.29693439Z INFO: 
+2026-06-10T10:29:26.29693923Z INFO: To address issues that do not require attention, run:
+2026-06-10T10:29:26.29694324Z INFO: npm audit fix
+2026-06-10T10:29:26.29694562Z INFO: 
+2026-06-10T10:29:26.296948Z INFO: To address all issues (including breaking changes), run:
+2026-06-10T10:29:26.2969515Z INFO: npm audit fix --force
+2026-06-10T10:29:26.29695384Z INFO: 
+2026-06-10T10:29:26.296956841Z INFO: Run `npm audit` for details.
+2026-06-10T10:29:28.148909466Z INFO: [34;1m==>[0;22m [1mUploading build...[22m
+2026-06-10T10:29:31.351720401Z INFO: [34;1m==>[0;22m [1mUploaded in 1.8s. Compression took 1.4s[22m
+2026-06-10T10:29:31.367631507Z INFO: [32;1m==>[0;22m [1mBuild successful 🎉[22m
+2026-06-10T10:29:40.211327853Z INFO: [0;34m[1m==> [0m[1mDeploying...[0m
+2026-06-10T10:29:51.326396978Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:52.322445953Z INFO: 
+2026-06-10T10:29:52.322477084Z INFO: > server@1.0.0 start
+2026-06-10T10:29:52.322481514Z INFO: > node server.js
+2026-06-10T10:29:52.322484614Z INFO: 
+2026-06-10T10:29:56.836175382Z INFO: 2026-06-10 10:29:56 INFO: Server started at 10000
+2026-06-10T10:29:57.563219907Z INFO: 2026-06-10 10:29:57 INFO: Incoming HEAD request to /
+2026-06-10T10:29:58.074797854Z INFO: Database connected
+2026-06-10T10:30:01.448912005Z INFO: [0;32m[1m==> [0m[1mYour service is live 🎉[0m
+2026-06-10T10:30:01.507845407Z INFO: 2026-06-10 10:30:01 INFO: Incoming GET request to /
+2026-06-10T10:30:01.692205688Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.694795044Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:30:01.697149284Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.699447001Z INFO: [0;32m[1m==> [0m[1mAvailable at your primary URL https://portfolio-backend-vwhl.onrender.com[0m
+2026-06-10T10:30:01.702115023Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.704074896Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:31:44.269492585Z INFO: 2026-06-10 10:31:44 INFO: Incoming POST request to /api/visitor/contact
+2026-06-10T10:35:06.391943962Z INFO: [0;32m[1m==> [0m[1mDetected service running on port 10000[0m
+2026-06-10T10:35:07.549275558Z INFO: [0;32m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:23:48.567766878Z INFO: errno: undefined,
+2026-06-10T10:23:48.567781448Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:23:48.567784768Z INFO: syscall: 'querySrv',
+2026-06-10T10:23:48.567788288Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:23:48.567791738Z INFO: }
+2026-06-10T10:23:48.567793669Z INFO: 
+2026-06-10T10:23:48.567796378Z INFO: Node.js v22.16.0
+2026-06-10T10:24:05.357539714Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:24:05.742383675Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:24:20.677349342Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:24:20.677353552Z INFO: errno: undefined,
+2026-06-10T10:24:20.677358142Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:24:20.677362432Z INFO: syscall: 'querySrv',
+2026-06-10T10:24:20.677367022Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:24:20.677371272Z INFO: }
+2026-06-10T10:24:20.677375143Z INFO: 
+2026-06-10T10:24:20.677379303Z INFO: Node.js v22.16.0
+2026-06-10T10:25:09.475678279Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:25:10.056471836Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:25:10.508384728Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:25:10.725942552Z INFO: 
+2026-06-10T10:25:10.72628747Z INFO: > server@1.0.0 start
+2026-06-10T10:25:10.72629569Z INFO: > node server.js
+2026-06-10T10:25:10.726298301Z INFO: 
+2026-06-10T10:25:16.271929932Z INFO: 2026-06-10 10:25:16 INFO: Server started at 10000
+2026-06-10T10:25:16.27735716Z INFO: node:internal/dns/promises:294
+2026-06-10T10:25:16.27737304Z INFO: this.reject(new DNSException(err, this.bindingName, this.hostname));
+2026-06-10T10:25:16.277378001Z INFO: ^
+2026-06-10T10:25:16.277382151Z INFO: 
+2026-06-10T10:25:16.277386461Z INFO: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.tacmizj.mongodb.net
+2026-06-10T10:25:16.277391441Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:25:16.277395611Z INFO: errno: undefined,
+2026-06-10T10:25:16.277399741Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:25:16.277403581Z INFO: syscall: 'querySrv',
+2026-06-10T10:25:16.277407972Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:25:16.277411781Z INFO: }
+2026-06-10T10:25:16.277415482Z INFO: 
+2026-06-10T10:25:16.277419362Z INFO: Node.js v22.16.0
+2026-06-10T10:25:57.989393412Z INFO: [0;31m[1m==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.[0m
+2026-06-10T10:25:58.405520335Z INFO: [0;31m[1m==> Docs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:26:48.105376611Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:26:49.234929357Z INFO: 
+2026-06-10T10:26:49.234963528Z INFO: > server@1.0.0 start
+2026-06-10T10:26:49.234968458Z INFO: > node server.js
+2026-06-10T10:26:49.234988988Z INFO: 
+2026-06-10T10:26:56.207390667Z INFO: 2026-06-10 10:26:56 INFO: Server started at 10000
+2026-06-10T10:26:57.32154756Z INFO: Database connected
+2026-06-10T10:29:01.215145378Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:02.223132922Z INFO: 
+2026-06-10T10:29:02.223151143Z INFO: > server@1.0.0 start
+2026-06-10T10:29:02.223154953Z INFO: > node server.js
+2026-06-10T10:29:02.223157893Z INFO: 
+2026-06-10T10:29:06.217669626Z INFO: Server started at 10000
+2026-06-10T10:29:07.200072456Z INFO: Database connected
+2026-06-10T10:29:16.089536006Z INFO: [34m[1m==>(B[m [1mDownloading cache...(B[m
+2026-06-10T10:29:16.124039004Z INFO: [34m[1m==>(B[m [1mCloning from https://github.com/sandeshnepal106/portfolio(B[m
+2026-06-10T10:29:22.278443999Z INFO: [34m[1m==>(B[m [1mChecking out commit 7133d69e8245d87929fdaeb78e622d8a5f90ce9a in branch main(B[m
+2026-06-10T10:29:23.411777301Z INFO: [34m[1m==>(B[m [1mDownloaded 8.2MB in 5s. Extraction took 1s.(B[m
+2026-06-10T10:29:24.201203235Z INFO: [34;1m==>[0;22m [1mUsing Node.js version 22.16.0 (default)[22m
+2026-06-10T10:29:24.201214815Z INFO: [34;1m==>[0;22m [1mDocs on specifying a Node.js version: https://render.com/docs/node-version[22m
+2026-06-10T10:29:24.201394469Z INFO: [34;1m==>[0;22m [1mInstalling Node.js version 22.16.0...[22m
+2026-06-10T10:29:25.188862546Z INFO: [34m[1m==>(B[m [1mRunning build command 'npm install'...(B[m
+2026-06-10T10:29:26.2764041Z INFO: 
+2026-06-10T10:29:26.27643377Z INFO: up to date, audited 175 packages in 1s
+2026-06-10T10:29:26.276445541Z INFO: 
+2026-06-10T10:29:26.276449701Z INFO: 23 packages are looking for funding
+2026-06-10T10:29:26.276454311Z INFO: run `npm fund` for details
+2026-06-10T10:29:26.296897109Z INFO: 
+2026-06-10T10:29:26.29693Z INFO: 12 vulnerabilities (3 moderate, 9 high)
+2026-06-10T10:29:26.29693439Z INFO: 
+2026-06-10T10:29:26.29693923Z INFO: To address issues that do not require attention, run:
+2026-06-10T10:29:26.29694324Z INFO: npm audit fix
+2026-06-10T10:29:26.29694562Z INFO: 
+2026-06-10T10:29:26.296948Z INFO: To address all issues (including breaking changes), run:
+2026-06-10T10:29:26.2969515Z INFO: npm audit fix --force
+2026-06-10T10:29:26.29695384Z INFO: 
+2026-06-10T10:29:26.296956841Z INFO: Run `npm audit` for details.
+2026-06-10T10:29:28.148909466Z INFO: [34;1m==>[0;22m [1mUploading build...[22m
+2026-06-10T10:29:31.351720401Z INFO: [34;1m==>[0;22m [1mUploaded in 1.8s. Compression took 1.4s[22m
+2026-06-10T10:29:31.367631507Z INFO: [32;1m==>[0;22m [1mBuild successful 🎉[22m
+2026-06-10T10:29:40.211327853Z INFO: [0;34m[1m==> [0m[1mDeploying...[0m
+2026-06-10T10:29:51.326396978Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:52.322445953Z INFO: 
+2026-06-10T10:29:52.322477084Z INFO: > server@1.0.0 start
+2026-06-10T10:29:52.322481514Z INFO: > node server.js
+2026-06-10T10:29:52.322484614Z INFO: 
+2026-06-10T10:29:56.836175382Z INFO: 2026-06-10 10:29:56 INFO: Server started at 10000
+2026-06-10T10:29:57.563219907Z INFO: 2026-06-10 10:29:57 INFO: Incoming HEAD request to /
+2026-06-10T10:29:58.074797854Z INFO: Database connected
+2026-06-10T10:30:01.448912005Z INFO: [0;32m[1m==> [0m[1mYour service is live 🎉[0m
+2026-06-10T10:30:01.507845407Z INFO: 2026-06-10 10:30:01 INFO: Incoming GET request to /
+2026-06-10T10:30:01.692205688Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.694795044Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:30:01.697149284Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.699447001Z INFO: [0;32m[1m==> [0m[1mAvailable at your primary URL https://portfolio-backend-vwhl.onrender.com[0m
+2026-06-10T10:30:01.702115023Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.704074896Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:31:44.269492585Z INFO: 2026-06-10 10:31:44 INFO: Incoming POST request to /api/visitor/contact
+2026-06-10T10:35:06.391943962Z INFO: [0;32m[1m==> [0m[1mDetected service running on port 10000[0m
+2026-06-10T10:35:07.549275558Z INFO: [0;32m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:23:48.567766878Z INFO: errno: undefined,
+2026-06-10T10:23:48.567781448Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:23:48.567784768Z INFO: syscall: 'querySrv',
+2026-06-10T10:23:48.567788288Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:23:48.567791738Z INFO: }
+2026-06-10T10:23:48.567793669Z INFO: 
+2026-06-10T10:23:48.567796378Z INFO: Node.js v22.16.0
+2026-06-10T10:24:05.357539714Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:24:05.742383675Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:24:20.677349342Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:24:20.677353552Z INFO: errno: undefined,
+2026-06-10T10:24:20.677358142Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:24:20.677362432Z INFO: syscall: 'querySrv',
+2026-06-10T10:24:20.677367022Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:24:20.677371272Z INFO: }
+2026-06-10T10:24:20.677375143Z INFO: 
+2026-06-10T10:24:20.677379303Z INFO: Node.js v22.16.0
+2026-06-10T10:25:09.475678279Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:25:10.056471836Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:25:10.508384728Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:25:10.725942552Z INFO: 
+2026-06-10T10:25:10.72628747Z INFO: > server@1.0.0 start
+2026-06-10T10:25:10.72629569Z INFO: > node server.js
+2026-06-10T10:25:10.726298301Z INFO: 
+2026-06-10T10:25:16.271929932Z INFO: 2026-06-10 10:25:16 INFO: Server started at 10000
+2026-06-10T10:25:16.27735716Z INFO: node:internal/dns/promises:294
+2026-06-10T10:25:16.27737304Z INFO: this.reject(new DNSException(err, this.bindingName, this.hostname));
+2026-06-10T10:25:16.277378001Z INFO: ^
+2026-06-10T10:25:16.277382151Z INFO: 
+2026-06-10T10:25:16.277386461Z INFO: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.tacmizj.mongodb.net
+2026-06-10T10:25:16.277391441Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:25:16.277395611Z INFO: errno: undefined,
+2026-06-10T10:25:16.277399741Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:25:16.277403581Z INFO: syscall: 'querySrv',
+2026-06-10T10:25:16.277407972Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:25:16.277411781Z INFO: }
+2026-06-10T10:25:16.277415482Z INFO: 
+2026-06-10T10:25:16.277419362Z INFO: Node.js v22.16.0
+2026-06-10T10:25:57.989393412Z INFO: [0;31m[1m==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.[0m
+2026-06-10T10:25:58.405520335Z INFO: [0;31m[1m==> Docs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:26:48.105376611Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:26:49.234929357Z INFO: 
+2026-06-10T10:26:49.234963528Z INFO: > server@1.0.0 start
+2026-06-10T10:26:49.234968458Z INFO: > node server.js
+2026-06-10T10:26:49.234988988Z INFO: 
+2026-06-10T10:26:56.207390667Z INFO: 2026-06-10 10:26:56 INFO: Server started at 10000
+2026-06-10T10:26:57.32154756Z INFO: Database connected
+2026-06-10T10:29:01.215145378Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:02.223132922Z INFO: 
+2026-06-10T10:29:02.223151143Z INFO: > server@1.0.0 start
+2026-06-10T10:29:02.223154953Z INFO: > node server.js
+2026-06-10T10:29:02.223157893Z INFO: 
+2026-06-10T10:29:06.217669626Z INFO: Server started at 10000
+2026-06-10T10:29:07.200072456Z INFO: Database connected
+2026-06-10T10:29:16.089536006Z INFO: [34m[1m==>(B[m [1mDownloading cache...(B[m
+2026-06-10T10:29:16.124039004Z INFO: [34m[1m==>(B[m [1mCloning from https://github.com/sandeshnepal106/portfolio(B[m
+2026-06-10T10:29:22.278443999Z INFO: [34m[1m==>(B[m [1mChecking out commit 7133d69e8245d87929fdaeb78e622d8a5f90ce9a in branch main(B[m
+2026-06-10T10:29:23.411777301Z INFO: [34m[1m==>(B[m [1mDownloaded 8.2MB in 5s. Extraction took 1s.(B[m
+2026-06-10T10:29:24.201203235Z INFO: [34;1m==>[0;22m [1mUsing Node.js version 22.16.0 (default)[22m
+2026-06-10T10:29:24.201214815Z INFO: [34;1m==>[0;22m [1mDocs on specifying a Node.js version: https://render.com/docs/node-version[22m
+2026-06-10T10:29:24.201394469Z INFO: [34;1m==>[0;22m [1mInstalling Node.js version 22.16.0...[22m
+2026-06-10T10:29:25.188862546Z INFO: [34m[1m==>(B[m [1mRunning build command 'npm install'...(B[m
+2026-06-10T10:29:26.2764041Z INFO: 
+2026-06-10T10:29:26.27643377Z INFO: up to date, audited 175 packages in 1s
+2026-06-10T10:29:26.276445541Z INFO: 
+2026-06-10T10:29:26.276449701Z INFO: 23 packages are looking for funding
+2026-06-10T10:29:26.276454311Z INFO: run `npm fund` for details
+2026-06-10T10:29:26.296897109Z INFO: 
+2026-06-10T10:29:26.29693Z INFO: 12 vulnerabilities (3 moderate, 9 high)
+2026-06-10T10:29:26.29693439Z INFO: 
+2026-06-10T10:29:26.29693923Z INFO: To address issues that do not require attention, run:
+2026-06-10T10:29:26.29694324Z INFO: npm audit fix
+2026-06-10T10:29:26.29694562Z INFO: 
+2026-06-10T10:29:26.296948Z INFO: To address all issues (including breaking changes), run:
+2026-06-10T10:29:26.2969515Z INFO: npm audit fix --force
+2026-06-10T10:29:26.29695384Z INFO: 
+2026-06-10T10:29:26.296956841Z INFO: Run `npm audit` for details.
+2026-06-10T10:29:28.148909466Z INFO: [34;1m==>[0;22m [1mUploading build...[22m
+2026-06-10T10:29:31.351720401Z INFO: [34;1m==>[0;22m [1mUploaded in 1.8s. Compression took 1.4s[22m
+2026-06-10T10:29:31.367631507Z INFO: [32;1m==>[0;22m [1mBuild successful 🎉[22m
+2026-06-10T10:29:40.211327853Z INFO: [0;34m[1m==> [0m[1mDeploying...[0m
+2026-06-10T10:29:51.326396978Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:52.322445953Z INFO: 
+2026-06-10T10:29:52.322477084Z INFO: > server@1.0.0 start
+2026-06-10T10:29:52.322481514Z INFO: > node server.js
+2026-06-10T10:29:52.322484614Z INFO: 
+2026-06-10T10:29:56.836175382Z INFO: 2026-06-10 10:29:56 INFO: Server started at 10000
+2026-06-10T10:29:57.563219907Z INFO: 2026-06-10 10:29:57 INFO: Incoming HEAD request to /
+2026-06-10T10:29:58.074797854Z INFO: Database connected
+2026-06-10T10:30:01.448912005Z INFO: [0;32m[1m==> [0m[1mYour service is live 🎉[0m
+2026-06-10T10:30:01.507845407Z INFO: 2026-06-10 10:30:01 INFO: Incoming GET request to /
+2026-06-10T10:30:01.692205688Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.694795044Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:30:01.697149284Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.699447001Z INFO: [0;32m[1m==> [0m[1mAvailable at your primary URL https://portfolio-backend-vwhl.onrender.com[0m
+2026-06-10T10:30:01.702115023Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.704074896Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:31:44.269492585Z INFO: 2026-06-10 10:31:44 INFO: Incoming POST request to /api/visitor/contact
+2026-06-10T10:35:06.391943962Z INFO: [0;32m[1m==> [0m[1mDetected service running on port 10000[0m
+2026-06-10T10:35:07.549275558Z INFO: [0;32m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:23:48.567766878Z INFO: errno: undefined,
+2026-06-10T10:23:48.567781448Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:23:48.567784768Z INFO: syscall: 'querySrv',
+2026-06-10T10:23:48.567788288Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:23:48.567791738Z INFO: }
+2026-06-10T10:23:48.567793669Z INFO: 
+2026-06-10T10:23:48.567796378Z INFO: Node.js v22.16.0
+2026-06-10T10:24:05.357539714Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:24:05.742383675Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:24:20.677349342Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:24:20.677353552Z INFO: errno: undefined,
+2026-06-10T10:24:20.677358142Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:24:20.677362432Z INFO: syscall: 'querySrv',
+2026-06-10T10:24:20.677367022Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:24:20.677371272Z INFO: }
+2026-06-10T10:24:20.677375143Z INFO: 
+2026-06-10T10:24:20.677379303Z INFO: Node.js v22.16.0
+2026-06-10T10:25:09.475678279Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:25:10.056471836Z INFO: [0;33m[1m==> [0m[1mNo open ports detected, continuing to scan...[0m
+2026-06-10T10:25:10.508384728Z INFO: [0;33m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:25:10.725942552Z INFO: 
+2026-06-10T10:25:10.72628747Z INFO: > server@1.0.0 start
+2026-06-10T10:25:10.72629569Z INFO: > node server.js
+2026-06-10T10:25:10.726298301Z INFO: 
+2026-06-10T10:25:16.271929932Z INFO: 2026-06-10 10:25:16 INFO: Server started at 10000
+2026-06-10T10:25:16.27735716Z INFO: node:internal/dns/promises:294
+2026-06-10T10:25:16.27737304Z INFO: this.reject(new DNSException(err, this.bindingName, this.hostname));
+2026-06-10T10:25:16.277378001Z INFO: ^
+2026-06-10T10:25:16.277382151Z INFO: 
+2026-06-10T10:25:16.277386461Z INFO: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.tacmizj.mongodb.net
+2026-06-10T10:25:16.277391441Z INFO: at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+2026-06-10T10:25:16.277395611Z INFO: errno: undefined,
+2026-06-10T10:25:16.277399741Z INFO: code: 'ENOTFOUND',
+2026-06-10T10:25:16.277403581Z INFO: syscall: 'querySrv',
+2026-06-10T10:25:16.277407972Z INFO: hostname: '_mongodb._tcp.cluster0.tacmizj.mongodb.net'
+2026-06-10T10:25:16.277411781Z INFO: }
+2026-06-10T10:25:16.277415482Z INFO: 
+2026-06-10T10:25:16.277419362Z INFO: Node.js v22.16.0
+2026-06-10T10:25:57.989393412Z INFO: [0;31m[1m==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.[0m
+2026-06-10T10:25:58.405520335Z INFO: [0;31m[1m==> Docs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:26:48.105376611Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:26:49.234929357Z INFO: 
+2026-06-10T10:26:49.234963528Z INFO: > server@1.0.0 start
+2026-06-10T10:26:49.234968458Z INFO: > node server.js
+2026-06-10T10:26:49.234988988Z INFO: 
+2026-06-10T10:26:56.207390667Z INFO: 2026-06-10 10:26:56 INFO: Server started at 10000
+2026-06-10T10:26:57.32154756Z INFO: Database connected
+2026-06-10T10:29:01.215145378Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:02.223132922Z INFO: 
+2026-06-10T10:29:02.223151143Z INFO: > server@1.0.0 start
+2026-06-10T10:29:02.223154953Z INFO: > node server.js
+2026-06-10T10:29:02.223157893Z INFO: 
+2026-06-10T10:29:06.217669626Z INFO: Server started at 10000
+2026-06-10T10:29:07.200072456Z INFO: Database connected
+2026-06-10T10:29:16.089536006Z INFO: [34m[1m==>(B[m [1mDownloading cache...(B[m
+2026-06-10T10:29:16.124039004Z INFO: [34m[1m==>(B[m [1mCloning from https://github.com/sandeshnepal106/portfolio(B[m
+2026-06-10T10:29:22.278443999Z INFO: [34m[1m==>(B[m [1mChecking out commit 7133d69e8245d87929fdaeb78e622d8a5f90ce9a in branch main(B[m
+2026-06-10T10:29:23.411777301Z INFO: [34m[1m==>(B[m [1mDownloaded 8.2MB in 5s. Extraction took 1s.(B[m
+2026-06-10T10:29:24.201203235Z INFO: [34;1m==>[0;22m [1mUsing Node.js version 22.16.0 (default)[22m
+2026-06-10T10:29:24.201214815Z INFO: [34;1m==>[0;22m [1mDocs on specifying a Node.js version: https://render.com/docs/node-version[22m
+2026-06-10T10:29:24.201394469Z INFO: [34;1m==>[0;22m [1mInstalling Node.js version 22.16.0...[22m
+2026-06-10T10:29:25.188862546Z INFO: [34m[1m==>(B[m [1mRunning build command 'npm install'...(B[m
+2026-06-10T10:29:26.2764041Z INFO: 
+2026-06-10T10:29:26.27643377Z INFO: up to date, audited 175 packages in 1s
+2026-06-10T10:29:26.276445541Z INFO: 
+2026-06-10T10:29:26.276449701Z INFO: 23 packages are looking for funding
+2026-06-10T10:29:26.276454311Z INFO: run `npm fund` for details
+2026-06-10T10:29:26.296897109Z INFO: 
+2026-06-10T10:29:26.29693Z INFO: 12 vulnerabilities (3 moderate, 9 high)
+2026-06-10T10:29:26.29693439Z INFO: 
+2026-06-10T10:29:26.29693923Z INFO: To address issues that do not require attention, run:
+2026-06-10T10:29:26.29694324Z INFO: npm audit fix
+2026-06-10T10:29:26.29694562Z INFO: 
+2026-06-10T10:29:26.296948Z INFO: To address all issues (including breaking changes), run:
+2026-06-10T10:29:26.2969515Z INFO: npm audit fix --force
+2026-06-10T10:29:26.29695384Z INFO: 
+2026-06-10T10:29:26.296956841Z INFO: Run `npm audit` for details.
+2026-06-10T10:29:28.148909466Z INFO: [34;1m==>[0;22m [1mUploading build...[22m
+2026-06-10T10:29:31.351720401Z INFO: [34;1m==>[0;22m [1mUploaded in 1.8s. Compression took 1.4s[22m
+2026-06-10T10:29:31.367631507Z INFO: [32;1m==>[0;22m [1mBuild successful 🎉[22m
+2026-06-10T10:29:40.211327853Z INFO: [0;34m[1m==> [0m[1mDeploying...[0m
+2026-06-10T10:29:51.326396978Z INFO: [32m[1m==>(B[m [1mRunning 'npm start'(B[m
+2026-06-10T10:29:52.322445953Z INFO: 
+2026-06-10T10:29:52.322477084Z INFO: > server@1.0.0 start
+2026-06-10T10:29:52.322481514Z INFO: > node server.js
+2026-06-10T10:29:52.322484614Z INFO: 
+2026-06-10T10:29:56.836175382Z INFO: 2026-06-10 10:29:56 INFO: Server started at 10000
+2026-06-10T10:29:57.563219907Z INFO: 2026-06-10 10:29:57 INFO: Incoming HEAD request to /
+2026-06-10T10:29:58.074797854Z INFO: Database connected
+2026-06-10T10:30:01.448912005Z INFO: [0;32m[1m==> [0m[1mYour service is live 🎉[0m
+2026-06-10T10:30:01.507845407Z INFO: 2026-06-10 10:30:01 INFO: Incoming GET request to /
+2026-06-10T10:30:01.692205688Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.694795044Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:30:01.697149284Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.699447001Z INFO: [0;32m[1m==> [0m[1mAvailable at your primary URL https://portfolio-backend-vwhl.onrender.com[0m
+2026-06-10T10:30:01.702115023Z INFO: [0;32m[1m==> [0m[1m[0m
+2026-06-10T10:30:01.704074896Z INFO: [0;32m[1m==> [0m[1m///////////////////////////////////////////////////////////[0m
+2026-06-10T10:31:44.269492585Z INFO: 2026-06-10 10:31:44 INFO: Incoming POST request to /api/visitor/contact
+2026-06-10T10:35:06.391943962Z INFO: [0;32m[1m==> [0m[1mDetected service running on port 10000[0m
+2026-06-10T10:35:07.549275558Z INFO: [0;32m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:35:07.549275558Z INFO: [0;32m[1m==> [0m[1mDocs on specifying a port: https://render.com/docs/web-services#port-binding[0m
+2026-06-10T10:42:54.942121373Z INFO: 2026-06-10 10:42:54 INFO: Incoming POST request to /api/admin/login
+2026-06-10T10:42:56.16147916Z INFO: 2026-06-10 10:42:56 INFO: Incoming GET request to /api/admin/contacts
+2026-06-10T10:42:56.16147916Z INFO: 2026-06-10 10:42:56 INFO: Incoming GET request to /api/admin/contacts
+2026-06-10T10:46:39.519603223Z INFO: 2026-06-10 10:46:39 INFO: Incoming POST request to /api/admin/login
+2026-06-10T10:46:40.21420706Z INFO: 2026-06-10 10:46:40 INFO: Incoming GET request to /api/admin/contacts
+2026-06-10T10:48:37.058013222Z INFO: 2026-06-10 10:48:37 INFO: Incoming POST request to /api/admin/logout
+2026-06-10T10:48:47.286692951Z INFO: 2026-06-10 10:48:47 INFO: Incoming POST request to /api/admin/login
+2026-06-10T10:48:50.476621483Z INFO: 2026-06-10 10:48:50 INFO: Incoming POST request to /api/admin/login
+2026-06-10T10:48:55.866323585Z INFO: 2026-06-10 10:48:55 INFO: Incoming POST request to /api/admin/login
+2026-06-10T10:49:02.053308359Z INFO: 2026-06-10 10:49:02 INFO: Incoming POST request to /api/admin/login
+2026-06-10T10:49:02.733504922Z INFO: 2026-06-10 10:49:02 INFO: Incoming GET request to /api/admin/contacts
+2026-06-10T10:49:13.629167746Z INFO: 2026-06-10 10:49:13 INFO: Incoming POST request to /api/admin/logout
+2026-06-10T10:52:54.292066634Z INFO: 2026-06-10 10:52:54 INFO: Incoming POST request to /api/admin/login
+2026-06-10T10:52:54.977512173Z INFO: 2026-06-10 10:52:54 INFO: Incoming GET request to /api/admin/contacts
+2026-06-10T10:53:55.687794785Z INFO: 2026-06-10 10:53:55 INFO: Incoming POST request to /api/visitor/contact
