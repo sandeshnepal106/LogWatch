@@ -23,8 +23,9 @@ COPY setup.py .
 # Install the package
 RUN pip install --no-cache-dir -e .
 
-# Copy cron and entrypoint
+# Copy cron and scripts
 COPY crontab /etc/cron.d/logwatch-cron
+COPY scripts/ ./scripts/
 COPY scripts/entrypoint.sh /entrypoint.sh
 
 # Set permissions

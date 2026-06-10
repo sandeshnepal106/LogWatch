@@ -6,7 +6,7 @@ services:
     container_name: logwatch-monitor
     restart: unless-stopped
     volumes:
-      - ./sample_logs:/logs:ro        # Mount your log directory here
+      - ../portfolio/portfolio/server/logs:/logs:ro        # Mount your log directory here
       - ./config:/app/config:ro       # Configuration
       - ./reports:/reports            # CSV report output
     env_file: .env
